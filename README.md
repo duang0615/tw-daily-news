@@ -43,7 +43,47 @@ python build_news.py --no-hub     # 確認沒問題再正式產出
 |---|---|
 | `--dry-run` | 只抓不寫檔，用來檢查來源通不通。**第一次跑一定先用這個** |
 | `--no-hub` | 只產列表頁，不去動上一層的總頁 |
+| `--scheduled` | 排程專用：照 `config.json` 的開關與時間決定要不要動手 |
 | （不加參數） | 產出頁面，並把入口卡片塞進 `../index.html` |
+
+---
+
+## 三個控制項
+
+全部在 [`config.json`](config.json)，改完 commit 就生效，**不用動排程檔**。
+
+```json
+{
+  "auto_update": true,
+  "update_time": "08:00",
+  "timezone": "Asia/Taipei",
+  "repo": "duang0615/tw-daily-news"
+}
+```
+
+| 想做什麼 | 怎麼做 |
+|---|---|
+| **開／關自動更新** | `auto_update` 改 `true` / `false` |
+| **改更新時間** | `update_time` 改成你要的 `HH:MM`（台灣時間） |
+| **立刻更新一次** | 頁面右上角的 **「立即更新」** 鈕，或 Actions 頁面按 Run workflow |
+
+頁面最上面那條設定列會直接顯示現在的狀態，還有「立即更新 / 改設定」兩個鈕。
+
+### 它是怎麼運作的
+
+排程**每小時醒來一次**，然後看 `config.json`：
+
+1. `auto_update` 是 `false` → 不跑
+2. 現在的小時 ≠ `update_time` 的小時 → 不跑
+3. 兩個都過 → 抓新聞、產頁面、commit
+
+所以改時間只要改 JSON，不用碰 cron。
+
+> **手動執行永遠不受開關影響。** 就算 `auto_update` 關著，
+> 按「立即更新」或在本機下 `python build_news.py` 都照跑。
+
+> **GitHub Actions 的排程只精確到小時**，而且尖峰時段常延遲 5～20 分鐘，
+> 所以 `update_time` 的分鐘只拿來顯示，比對的是小時。
 
 ---
 
@@ -104,11 +144,14 @@ https://news.google.com/rss/search?q=site:moneydj.com+when:2d&hl=zh-TW&gl=TW&cei
 
 ## 自動更新
 
-`.github/workflows/daily.yml` 每天 UTC 00:00（台灣 08:00）跑一次，
-有變動才 commit。也可以在 Actions 頁面手動觸發。
+`.github/workflows/daily.yml` 每小時醒來一次，由 `config.json` 決定要不要動手，
+有變動才 commit。
 
-> **為什麼是 08:00**：開盤前你會看手機。前一晚的重大訊息、法人動向、
+> **為什麼預設 08:00**：開盤前你會看手機。前一晚的重大訊息、法人動向、
 > 國際盤消息，這時候都已經落地了。
+
+**已驗證**：GitHub 的機器在美國，但證交所、櫃買、期交所都沒有擋境外 IP，
+九個來源在 Actions 上全部抓得到。
 
 ---
 
@@ -119,6 +162,7 @@ https://news.google.com/rss/search?q=site:moneydj.com+when:2d&hl=zh-TW&gl=TW&cei
 | 加／減來源 | `SOURCES` 清單 |
 | 過濾垃圾標題 | `NOISE` 正則清單 |
 | 收多久以內的新聞 | `MAX_AGE_H` |
+| 自動更新開關／時間 | `config.json` |
 | 每個來源收幾則 | `PER_SOURCE` |
 | 版面、配色 | `CSS` 字串 |
 | 搜尋／篩選行為 | `JS` 字串 |

@@ -1,0 +1,13 @@
+{
+  "auto_update": true,
+  "update_time": "08:00",
+  "timezone": "Asia/Taipei",
+  "repo": "duang0615/tw-daily-news",
+
+  "_說明": {
+    "auto_update": "自動更新的總開關。改成 false 就停掉，排程還在但不會動作。手動跑不受影響。",
+    "update_time": "每天幾點更新，台灣時間 HH:MM。排程每小時醒來一次，只有小時吻合才真的跑。",
+    "update_time_注意": "GitHub Actions 的排程只精確到小時，而且尖峰時間常延遲 5～20 分鐘，所以分鐘只拿來顯示。",
+    "repo": "用來產生頁面上「立即更新 / 改設定」兩個按鈕的連結。留空字串就不顯示按鈕。"
+  }
+}

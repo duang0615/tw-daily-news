@@ -12,6 +12,11 @@
     python build_news.py              # 正常跑
     python build_news.py --dry-run    # 只抓不寫檔，用來檢查來源通不通
     python build_news.py --no-hub     # 只產列表頁，不去動上一層的總頁（放 GitHub 用這個）
+    python build_news.py --scheduled  # 排程專用：照 config.json 的開關與時間決定要不要跑
+
+設定都在同目錄的 config.json：
+    auto_update  自動更新總開關（手動跑不受影響）
+    update_time  每天幾點更新，台灣時間 HH:MM
 """
 import io, os, re, sys, json, time, html
 import urllib.request, urllib.parse, urllib.error
@@ -32,6 +37,41 @@ NOISE = [
 TZ         = timezone(timedelta(hours=8))
 UA         = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                             "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"}
+
+
+DEFAULT_CONFIG = {"auto_update": True, "update_time": "08:00",
+                  "timezone": "Asia/Taipei", "repo": ""}
+
+
+def load_config():
+    """設定放在 config.json，找不到或壞掉就用預設值，不要讓整支程式掛掉。"""
+    cfg = dict(DEFAULT_CONFIG)
+    path = os.path.join(HERE, "config.json")
+    try:
+        user = json.loads(io.open(path, encoding="utf-8").read())
+        for k in DEFAULT_CONFIG:
+            if k in user:
+                cfg[k] = user[k]
+    except FileNotFoundError:
+        pass
+    except Exception as e:
+        print("  ! config.json 讀不動（%s），改用預設值" % repr(e)[:60])
+    return cfg
+
+
+def should_run_now(cfg):
+    """排程模式下，決定這一次要不要真的動手。回傳 (要不要跑, 原因)。"""
+    if not cfg.get("auto_update", True):
+        return False, "config.json 的 auto_update 是 false，自動更新已關閉"
+    want = str(cfg.get("update_time", "08:00"))
+    try:
+        hh = int(want.split(":")[0])
+    except Exception:
+        return True, "update_time 格式看不懂（%s），這次照跑" % want
+    now_h = datetime.now(TZ).hour
+    if now_h != hh:
+        return False, "現在 %02d 點，設定是每天 %s，跳過" % (now_h, want)
+    return True, "現在 %02d 點，對上設定的 %s" % (now_h, want)
 
 
 def gnews(q):
@@ -256,6 +296,20 @@ a{text-decoration:none}
 .hs .ok{background:#e7f4ec;color:#1f9d55}
 .hs .no{background:#fcebeb;color:#e23b3b}
 .foot{margin:30px 0 0;font-size:11.5px;color:#9aa4b2;line-height:1.8}
+/* 設定列 */
+.cfg{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#fff;
+     border:1px solid #e3e8ee;border-radius:10px;padding:9px 13px;margin-bottom:10px;font-size:12.5px}
+.cfg .sw{font-weight:700;border-radius:20px;padding:2px 10px;font-size:11.5px}
+.cfg .sw.on{background:#e7f4ec;color:#1f9d55}
+.cfg .sw.off{background:#fcebeb;color:#e23b3b}
+.cfg .lb{color:#6b7785}
+.cfg .vv{color:#12232a;font-weight:600}
+.cfg .sp{flex:1}
+.cfg a.btn{border:1px solid #d6dde6;border-radius:8px;padding:5px 11px;color:#2f6db5;
+           font-weight:600;white-space:nowrap}
+.cfg a.btn:hover{background:#f0f5fb;border-color:#b9cde5}
+.cfg a.btn.go{background:#185FA5;border-color:#185FA5;color:#fff}
+.cfg a.btn.go:hover{background:#14508b}
 @media(max-width:760px){
   .wrap{display:block}
   .side{width:auto;position:static;padding:12px 16px 0;display:flex;gap:6px;overflow-x:auto}
@@ -311,7 +365,28 @@ def row(r):
                html.escape(r["link"]), html.escape(r["title"])))
 
 
-def render_page(items, status, now):
+def cfg_bar(cfg, now):
+    on = bool(cfg.get("auto_update", True))
+    repo = (cfg.get("repo") or "").strip()
+    btns = ""
+    if repo:
+        btns = ('<a class="btn go" href="https://github.com/%s/actions/workflows/daily.yml" '
+                'target="_blank" rel="noopener">立即更新</a>'
+                '<a class="btn" href="https://github.com/%s/edit/main/config.json" '
+                'target="_blank" rel="noopener">改設定</a>' % (repo, repo))
+    return ('<div class="cfg">'
+            '<span class="lb">自動更新</span><span class="sw %s">%s</span>'
+            '<span class="lb">每天</span><span class="vv">%s</span>'
+            '<span class="lb">台灣時間</span>'
+            '<span class="lb">·　本頁產出於</span><span class="vv">%s</span>'
+            '<span class="sp"></span>%s</div>'
+            % ("on" if on else "off", "開啟" if on else "已關閉",
+               html.escape(str(cfg.get("update_time", "08:00"))),
+               now.strftime("%m/%d %H:%M"), btns))
+
+
+def render_page(items, status, now, cfg=None):
+    cfg = cfg or DEFAULT_CONFIG
     per_cat = {}
     for r in items:
         per_cat[r["cat"]] = per_cat.get(r["cat"], 0) + 1
@@ -332,7 +407,7 @@ def render_page(items, status, now):
             '<h1>每日新聞</h1>'
             '<div class="sub">%s 更新 · 共 %d 則 · 證交所／櫃買／期交所／鉅亨網／MoneyDJ／DigiTimes</div></div>'
             '<div class="wrap"><nav class="side">%s</nav><div class="main">'
-            '<div class="hs">%s</div>'
+            '%s<div class="hs">%s</div>'
             '<div class="bar"><input id="q" type="search" placeholder="搜尋標題關鍵字，例如 台積電、可轉債、法說">'
             '<select id="src">%s</select><span class="n" id="n"></span></div>'
             '%s<div class="empty" id="empty" hidden>沒有符合的新聞，換個關鍵字試試。</div>'
@@ -340,7 +415,8 @@ def render_page(items, status, now):
             '標題與連結屬原網站所有，本頁僅做索引 · 教學用途，非投資建議</div>'
             '</div></div><script>%s</script></body></html>'
             % (now.strftime("%Y-%m-%d"), CSS, now.strftime("%Y-%m-%d %H:%M"), len(items),
-               side, chips, opts, "".join(row(r) for r in items), JS))
+               side, cfg_bar(cfg, now), chips, opts,
+               "".join(row(r) for r in items), JS))
 
 
 # -- 4. 總頁的「每日新聞」卡片 ---------------------------------------
@@ -388,6 +464,19 @@ def inject_hub(items, now):
 def main():
     dry = "--dry-run" in sys.argv
     no_hub = "--no-hub" in sys.argv        # 放在 GitHub 之類沒有總頁的地方時用
+    scheduled = "--scheduled" in sys.argv  # 排程叫起來的，要看 config.json 臉色
+
+    cfg = load_config()
+    print("設定：自動更新=%s ／ 每天 %s（%s）"
+          % ("開" if cfg.get("auto_update", True) else "關",
+             cfg.get("update_time"), cfg.get("timezone")))
+    if scheduled:
+        go, why = should_run_now(cfg)
+        print("排程模式：%s" % why)
+        if not go:
+            print("這次不跑。（手動執行不受開關影響）")
+            return 0
+
     print("抓取中 ...")
     items, status, now = collect()
     for s in status:
@@ -400,7 +489,7 @@ def main():
         print("! 一則都沒抓到，保留原本的頁面不覆蓋")
         return 1
 
-    page = render_page(items, status, now)
+    page = render_page(items, status, now, cfg)
     io.open(os.path.join(HERE, "index.html"), "w", encoding="utf-8").write(page)
     arc = os.path.join(HERE, "archive")
     os.makedirs(arc, exist_ok=True)
