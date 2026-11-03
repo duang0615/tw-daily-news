@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-02T11:59:02.829757+08:00",
-  "count": 100,
+  "generated_at": "2026-11-03T13:00:23.237590+08:00",
+  "count": 135,
   "sources": [
     {
       "name": "證交所·新聞",
       "ok": true,
-      "n": 0,
+      "n": 3,
       "note": "官方 OpenAPI",
-      "msg": "0 則（原始 697，過期 697，雜訊 0）"
+      "msg": "3 則（原始 700，過期 697，雜訊 0）"
     },
     {
       "name": "證交所·重大訊息",
       "ok": true,
-      "n": 4,
+      "n": 25,
       "note": "上市公司每日重大訊息",
-      "msg": "4 則（原始 4，過期 0，雜訊 0）"
+      "msg": "25 則（原始 92，過期 0，雜訊 0）"
     },
     {
       "name": "櫃買·重大訊息",
@@ -26,23 +26,23 @@
     {
       "name": "期交所·公告",
       "ok": true,
-      "n": 0,
+      "n": 3,
       "note": "官方 RSS",
-      "msg": "0 則（原始 30，過期 30，雜訊 0）"
+      "msg": "3 則（原始 30，過期 27，雜訊 0）"
     },
     {
       "name": "期交所·新聞稿",
       "ok": true,
-      "n": 0,
+      "n": 3,
       "note": "官方 RSS",
-      "msg": "0 則（原始 30，過期 30，雜訊 0）"
+      "msg": "3 則（原始 30，過期 27，雜訊 0）"
     },
     {
       "name": "鉅亨網·台股",
       "ok": true,
-      "n": 20,
+      "n": 25,
       "note": "官方 RSS",
-      "msg": "20 則（原始 32，過期 0，雜訊 12）"
+      "msg": "25 則（原始 93，過期 0，雜訊 0）"
     },
     {
       "name": "鉅亨網·頭條",
@@ -63,617 +63,1001 @@
       "ok": true,
       "n": 25,
       "note": "原生 RSS 需登入 → 改用 Google News 代打",
-      "msg": "25 則（原始 86，過期 0，雜訊 0）"
+      "msg": "25 則（原始 100，過期 0，雜訊 0）"
     }
   ],
   "items": [
     {
-      "title": "三星與台積電競逐日本先進封裝布局 李在鎔親赴橫濱據點視察 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONUFxYVFQX0h0dk03UlJFaHItWXN1MFg3Z0VoN0dUdFFKcUVpRWs2LXJ5WFhXV3hBRTd4Ym5fSXBOWC0ySl9MMkVXVUY4U0ZzMUFJYUpDSldtYnFkLU5JWVpaRFJodmxRLWh4cXh1NmNteXBsa0RSNm9CbzBucFYzeDlHVENZTWU4T1ZfN2VhZm9WbTg5RHNocGJZRDBlN0VKSlZXNlJpWjVVNXJo?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "三星與台積電競逐日本先進封裝布局 李在鎔親赴橫濱據點視察 DIGITIMES",
-      "time": "2026-11-02T11:50:00+08:00"
-    },
-    {
-      "title": "MoneyDJ新聞 2026-11-02 11:47:06 黃文章 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTDhIMXRNcWxKbWFEZlV3Rm5KblBFdERNUW5PazNGdmJwcExscGp6RDlVLW53cnh1MVlJVFJwWDd0Ri1QR196UnMteUJvY3JBMWhwNDBGdWRtbERETmFsdXBZcndYWl9Hd2NieEtaNGtYYkY4dWtGelZzVXlQeW5uTS1qdXBjWER2dHF4dDl0aU16R0E?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 11:47:06 黃文章 發佈 MoneyDJ",
-      "time": "2026-11-02T11:49:23+08:00"
-    },
-    {
-      "title": "盤中速報 - 光電類指數類股表現強勁，漲幅2.01%，總成交額21.97億",
-      "link": "https://news.cnyes.com/news/id/6643726",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "台股今日光電業類股表現強勁，02日11:49相關指數上漲2.01%，總成交額21.97億元，大盤占比2.14%。該產業上漲家數21、下跌家數21、平盤家數2。領漲個股雷笛克光學(5230-TW)02日11:49股價上漲2.55元，報28.4元，漲幅9.86%。光電類指數近5日下跌3.15%，櫃買市場",
-      "time": "2026-11-02T11:49:21+08:00"
-    },
-    {
-      "title": "盤中速報 - 錦明(3230)股價拉至漲停，漲停價25.2元，成交759張",
-      "link": "https://news.cnyes.com/news/id/6643725",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "錦明(3230-TW)02日11:47上漲2.25元，股價漲停報25.2元，委買299,000張，成交759張。主要業務為五金及鎂合金製品(LCD 及NB等零組件)之製造加工買賣業務。塑膠射出成型製品製造加工買賣業務。TFT LCD TV & Monitor之Base 與Hinge之研究開",
-      "time": "2026-11-02T11:47:51+08:00"
-    },
-    {
-      "title": "盤中速報 - 富喬(1815)股價拉至漲停，漲停價139.0元，成交78,738張",
-      "link": "https://news.cnyes.com/news/id/6643722",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "富喬(1815-TW)02日11:44上漲12.5元，股價漲停報139.0元，委買183,000張、委賣1,530,000張，成交78,738張。主要業務為電子級玻璃纖維、電子級玻璃纖維、電子級玻璃纖維。富喬(1815-TW)近5日股價下跌8.99%，櫃買市場加權指數下跌2.99%，短期股價無明顯表",
-      "time": "2026-11-02T11:44:59+08:00"
-    },
-    {
-      "title": "〈焦點股〉資安議題熱！資服業多頭氣勢高漲 多檔漲逾半根停板",
-      "link": "https://news.cnyes.com/news/id/6643711",
+      "title": "盤中速報 - 櫃買市場加權指數下跌-22.25點至346.99點，跌幅6.03%",
+      "link": "https://news.cnyes.com/news/id/6644945",
       "source": "鉅亨網·台股",
       "category": "媒體新聞",
-      "summary": "AI資安事件頻傳，帶動東捷資訊、偉康科技、普鴻等資安題材股今股價大漲，多檔攻上漲停。 普鴻稱量子電腦密碼威脅升高，金融與政府已將PQC盤點提升排程，旗下13項PQC演算法程式通過NIST認證。",
-      "time": "2026-11-02T11:40:07+08:00"
+      "summary": "截至台北時間03日12:50，櫃買市場加權指數下跌22.25點（或6.03%），暫報346.99點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-8.26%。其中 旺矽(6223-",
+      "time": "2026-11-03T12:53:00+08:00"
     },
     {
-      "title": "Elon Musk押注20GW AI算力 業界示警恐需舉債1兆美元 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd3VHOFllaHE0aGdHQ195dWlsY3AxWUtPTkRQQ3J2a2E3YUZweXk3VkM1Y19UY3Jzdlk0YlN6UkZVTzNPYm9sUXFaNGl1aG55SjZVVEF2SWZlQnBtVWVoQ0pwZjh4dER3Q0NUV3ItMU9lczc2eFpZYzU4VEZyQk03ZTVNTHNmYW95UW9KVWpETzEtVVJySXdF?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "Elon Musk押注20GW AI算力 業界示警恐需舉債1兆美元 DIGITIMES",
-      "time": "2026-11-02T11:39:00+08:00"
-    },
-    {
-      "title": "OpenAI擬將資料中心改稱「AI運算園區」 盼扭轉負面觀感 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYnplWThmVi1QTFVGdmE3clhoSDZQVXlTVzV3dDVNM3dCQzBpdVdEWmp6RzV5U2dMNl83NGlqZXJsMGhMR1Nab1VZODl2eEg1dDEtbHZScXRjbXdidkhLSzFrR0pzRTdvZ2xnR3ZGQ3hmSXJCTG1sUUZmSDBvNVJQU29JV2RjdnhUaUF1d3ZibjlTa0hoSWk0?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "OpenAI擬將資料中心改稱「AI運算園區」 盼扭轉負面觀感 DIGITIMES",
-      "time": "2026-11-02T11:33:00+08:00"
-    },
-    {
-      "title": "盤中速報 - 建榮(5340)股價拉至漲停，漲停價88.2元，成交3,084張",
-      "link": "https://news.cnyes.com/news/id/6643716",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "建榮(5340-TW)02日11:32上漲8元，股價漲停報88.2元，委買6,365,000張，成交3,084張。主要業務為印刷電路基層板、玻璃布之製造加工、買賣業務。前項有關之原材料。、零配組件、製成品之製造加工買賣業務。前項有關產品之進出口及。國內外廠商有關產品之代理經銷投標報價。建榮(5340",
-      "time": "2026-11-02T11:32:59+08:00"
-    },
-    {
-      "title": "MoneyDJ新聞 2026-11-02 11:26:29 新聞中心 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQTdoNWtrU2NiRTZya05WbG5uemhvRHY0TEZ0Z0xjUXQ1NWRMRTVTUTlwM0NTYUxkTHpYeHhDTHFmTW9HdzdrbjR6aUFKd0xDS0J2bkpqMFBqckVHMnBiYnQ3VjVtbllINGpDa3VRTjczQjcwaHRLMXBiMkVBbWw2ZGhCU2VkQ0xCN3NkaVlOQmxNQjQ?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 11:26:29 新聞中心 發佈 MoneyDJ",
-      "time": "2026-11-02T11:27:12+08:00"
-    },
-    {
-      "title": "蘋果攜手阿里打通監管關卡 Apple Intelligence預計12月登陸中國 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9POUR2d0JGMmJTWFFfWU9obF8zTlpDckttS005WENidU9MTDdzWkZKNE9NVFZSaFItT3UtZzZoak9nWUZSQmZMR1hqd2ZsZWZmdjZEZUxvQkM4RGtuenBpd1MyVDRjOGhIQjJR?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "蘋果攜手阿里打通監管關卡 Apple Intelligence預計12月登陸中國 DIGITIMES",
-      "time": "2026-11-02T11:27:00+08:00"
-    },
-    {
-      "title": "盤中速報 - 伊雲谷(6689)股價拉至漲停，漲停價77.3元，成交1,758張",
-      "link": "https://news.cnyes.com/news/id/6643713",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "伊雲谷(6689-TW)02日11:26上漲7元，股價漲停報77.3元，委買3張、委賣393張，成交1,758張。主要業務為雲端服務其他。伊雲谷(6689-TW)近5日股價下跌4.35%，集中市場加權指數下跌1.8%，短期股價無明顯表現。近5日籌碼 三大法人合計買賣超：+430 張 外資",
-      "time": "2026-11-02T11:26:22+08:00"
-    },
-    {
-      "title": "00830分割投票開跑！國泰費城半導體入手門檻將降低，持有人該注意什麼？",
-      "link": "https://news.cnyes.com/news/id/6643709",
+      "title": "盤中速報 - 集中市場加權指數下跌-1472.16點至43447.98點，跌幅3.28%",
+      "link": "https://news.cnyes.com/news/id/6644944",
       "source": "鉅亨網·台股",
       "category": "媒體新聞",
-      "summary": "AI算力需求帶動半導體供應鏈受關注，國泰費城半導體（00830）成焦點。 00830分割議案電子投票期間為2026年10月30日07:00至11月16日23:59，11月19日開會。 分割若通過僅降低每單位價格、不增加總價值，後續還有暫停交易與恢復買賣時程。",
-      "time": "2026-11-02T11:19:31+08:00"
+      "summary": "截至台北時間03日12:49，集中市場加權指數下跌1472.16點（或3.28%），暫報43447.98點。歷史漲跌幅近 1 週：-2.44%近 1 月：-7.33%近 3 月：+4.18%近 6 月：+15.4%今年以來：+55.09%焦點個股CPO封裝概念領跌-8.26%。其中 旺矽(62",
+      "time": "2026-11-03T12:51:52+08:00"
     },
     {
-      "title": "〈ITF旅展〉雄獅春節連假日本線訂單已年增2成 歐洲線需求同熱",
-      "link": "https://news.cnyes.com/news/id/6643700",
+      "title": "盤中速報 - 櫃買市場加權指數下跌-22.3點至346.94點，跌幅6.04%",
+      "link": "https://news.cnyes.com/news/id/6644942",
       "source": "鉅亨網·台股",
       "category": "媒體新聞",
-      "summary": "ITF台北國際旅展11/6至9登場，雄獅指春節7天連假帶動日本線訂單年增逾20% 東南亞、歐洲需求同樣暢旺；熱門目的地含北陸、釜山、北海道，挹注第一季動能 運動旅遊訂單年增30%，國旅春節訂單也成長30%，花東、阿里山、賞櫻最熱門",
-      "time": "2026-11-02T11:18:22+08:00"
+      "summary": "截至台北時間03日12:49，櫃買市場加權指數下跌22.3點（或6.04%），暫報346.94點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-8.26%。其中 旺矽(6223-T",
+      "time": "2026-11-03T12:51:47+08:00"
     },
     {
-      "title": "長鑫存儲稱完成4F2第六代DRAM工程樣品驗證 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY3RFYkhWZUllZGtpU3MtelFibnFpOVRhcDFFa3UxMTlPQmdFRHZPZWlRd21WNHgybm1VSmFlMXNIVW5WdC1LeFJrWEhWX0stT0pDNW8tYU9OYjRNSVVycGRnUng3eW9XdGpxNUNTdTRkdmFqRi16RnNsSFVWVThKYlkxSjNtMlBmWU13VFQ4bjBSZ01wWmFR?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "長鑫存儲稱完成4F2第六代DRAM工程樣品驗證 DIGITIMES",
-      "time": "2026-11-02T11:17:00+08:00"
-    },
-    {
-      "title": "盤中速報 - 九豪(6127)股價拉至漲停，漲停價54.8元，成交2,888張",
-      "link": "https://news.cnyes.com/news/id/6643707",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "九豪(6127-TW)02日11:12上漲4.95元，股價漲停報54.8元，委買1,000張、委賣252,000張，成交2,888張。主要業務為氧化鋁陶瓷基板之製造、加工及買賣業務。九豪(6127-TW)近5日股價下跌10.98%，櫃買市場加權指數下跌2.99%，短期股價無明顯表現。近5日籌碼",
-      "time": "2026-11-02T11:12:28+08:00"
-    },
-    {
-      "title": "外匯速報 - 美元/韓元(USDKRW) 大漲0.81%，報1344.3元",
-      "link": "https://news.cnyes.com/news/id/6643706",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "截至台北時間02日11:10，美元/韓元上漲10.8點漲幅達0.81%，暫報1344.3點。歷史漲跌幅近 1 月：-1.94%近 1 週：+0.74%近 3 月：-7.53%近 6 月：-9.34%今年以來：-7.57%美元/韓元近90天正相關的前3貨幣對",
-      "time": "2026-11-02T11:10:20+08:00"
-    },
-    {
-      "title": "MoneyDJ新聞 2026-11-02 10:53:04 黃文章 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVFpyTnFudVRoa3E5VUJPRFAtN3MtUDN1ZElHSnJWVXZ5T0VCbkxBa3V5ZDhVZTBjOThCTi1RVEVOSnhjUTVFZU9WR3M0M0J2dkNGc2pYQ01rZm5sUWZmRk8zTlRSWm00TGwxd0VJR1VNaC1hd1lWYlU0dVdZRTdQcFhFbzFrZEliNHBzWVN2c0pKczQ?oc=5",
+      "title": "MoneyDJ新聞 2026-11-03 12:44:29 陳怡潔 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUGVwaVVra0xZSjFfd3ZLYXo1dFRXQm94MHZVVmpHQW81SGc5RzYwRXRYamo3WHFqZ1hzOHlvMjlqSWR0b3hubXlzbWkxbU4wWlF2Z0FwNzhSa29fVmRVbWpnR3R0dnV5cTUwSU56RG1reUdjbmpKblpHT21oa0pVWk82ZnJsenlWNTBwQ0NIcTh1VUE?oc=5",
       "source": "MoneyDJ",
       "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 10:53:04 黃文章 發佈 MoneyDJ",
-      "time": "2026-11-02T11:06:47+08:00"
+      "summary": "MoneyDJ新聞 2026-11-03 12:44:29 陳怡潔 發佈 MoneyDJ",
+      "time": "2026-11-03T12:44:44+08:00"
     },
     {
-      "title": "MoneyDJ新聞 2026-11-02 11:00:59 李彥瑾 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWnpHcE52ZEg5QkE2ZmtXUXFrVlVUbHdYNVU0aGxwOEhxRWplWnJGRDZPcGd2Wks3VWJBMmRoektGX1doa19JWXMzc0hiNjdyQ183ZUUxQVV6bHRuaWQ2M1RuaHJZbUxKQmhyNmFOMWMxTUVFcFFzYlZaQXJBejFBN2F0c0huM3hFTjRpTmxLWEptVVk?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 11:00:59 李彥瑾 發佈 MoneyDJ",
-      "time": "2026-11-02T11:06:18+08:00"
-    },
-    {
-      "title": "Meta攜中國傅利葉打造人形機器人 3個月完成Max原型 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwUnRRb1hhUGFrVUFwUl9sSUVYT3Z6Tl9wUGI0ZmJxbWxlSlVnNVgxQThMVGQxMWJxbTlueEN0aHUzbHVKNTJVMDQ0WExCVFQ1bFp3ZjNiQWxfQVhfbFRKUmlfaHo5cEZqeWxr?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "Meta攜中國傅利葉打造人形機器人 3個月完成Max原型 DIGITIMES",
-      "time": "2026-11-02T11:05:00+08:00"
-    },
-    {
-      "title": "AI泡沫疑慮難擋設備投資潮 TEL年度營益估增近90%、CFO稱需求未見降溫 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ3FESU5KbFdvZm9lal9nMTRTTUFSSF9IdlBLUjZ2RXdvekhwS3NzUTdBMllUWXgzX3pLaVJGeDZsZVo2LUZhVnJsZGNkME5KNl9weXl3b3RWN3Rmc0J3X0ZLajRqZk5SNUN1ZTRXN0pVekktRmh1blhYN25GZFpTb0djYWpQSXR0U3YwYXdXM0hNM3N5TFlr?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "AI泡沫疑慮難擋設備投資潮 TEL年度營益估增近90%、CFO稱需求未見降溫 DIGITIMES",
-      "time": "2026-11-02T11:01:00+08:00"
-    },
-    {
-      "title": "選舉與通膨數據雙重審判將至！債市巨頭罕見「按兵不動」 AI投資與財政政策面臨重新定價",
-      "link": "https://news.cnyes.com/news/id/6643638",
+      "title": "OpenAI延攬美國前陸軍部長！德里斯科爾出任國安顧問、推動AI國防應用",
+      "link": "https://news.cnyes.com/news/id/6644586",
       "source": "鉅亨網·頭條",
       "category": "媒體新聞",
-      "summary": "美國期中選舉前夕，華爾街債市因國會版圖、財政路徑與AI基建支出不確定性升高，多家機構暫緩美債交易。 美債殖利率近幾周劇烈攀升，PGIM、摩根士丹利投資管理等認為選後與再融資聲明、通膨數據出爐前應先觀望。 市場關注財政部4日再融資聲明與10日通膨數據，若選舉爭議或共和黨全面執政，債市波動恐加劇。",
-      "time": "2026-11-02T11:00:06+08:00"
+      "summary": "OpenAI週一（2日）宣布，延攬美國前陸軍部長德里斯科爾（Dan Driscoll）加入公司，擔任新設立的「國家安全現代化資深顧問」，協助公司探索先進人工智慧（AI）技術在國家安全與網路安全領域的應用。 根據《路透》報導，OpenAI表示，德里斯科爾將直接向公司領導層提供建議，並與外部合作夥伴共",
+      "time": "2026-11-03T12:40:03+08:00"
     },
     {
-      "title": "高息ETF績效排名出爐 00939今年含息報酬率80.14%拔頭籌",
-      "link": "https://news.cnyes.com/news/id/6643698",
+      "title": "盤中速報 - 集中市場加權指數下跌-1479.27點至43440.87點，跌幅3.29%",
+      "link": "https://news.cnyes.com/news/id/6644927",
       "source": "鉅亨網·台股",
       "category": "媒體新聞",
-      "summary": "​高息ETF績效排名出爐！根據CMoney統計，今年以來高股息ETF含息報酬率中，統一台灣高息動能 ETF(00939-TW)以 80.14% 的成績，穩居高息ETF冠軍寶座。國泰永續高股息(00878-TW)、大華優利高填息30(00918-TW)則分別以72.33%、70.77%分居二、三名。",
-      "time": "2026-11-02T10:56:16+08:00"
+      "summary": "截至台北時間03日12:39，集中市場加權指數下跌1479.27點（或3.29%），暫報43440.87點。歷史漲跌幅近 1 週：-2.44%近 1 月：-7.33%近 3 月：+4.18%近 6 月：+15.4%今年以來：+55.09%焦點個股CPO封裝概念領跌-8.26%。其中 旺矽(62",
+      "time": "2026-11-03T12:39:24+08:00"
     },
     {
-      "title": "盤中速報 - 華廣(4737)股價殺至跌停，跌停價59.1元，成交202張",
-      "link": "https://news.cnyes.com/news/id/6643702",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "華廣(4737-TW)02日10:55下跌6.5元，股價跌停報59.1元，委買10張、委賣2張，成交202張。主要業務為血糖檢測儀,血糖檢測試片。華廣(4737-TW)近5日股價上漲9.52%，集中市場加權指數下跌1.8%，股價漲幅表現優於大盤。近5日籌碼 三大法人合計買賣超：+134 張",
-      "time": "2026-11-02T10:55:05+08:00"
-    },
-    {
-      "title": "PC閒置大量記憶體 OpenAI CEO：DRAM應優先供資料中心 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JOEJ3VkZHS05CSG1xdFdTVFZaZ2pybmRvcFY2TV9BU0IxdHlKUHVNRWVyOTR1SFlBcGgyTU5TdFBmaWtiTjhsMlFOSFladUdxOUM0MnVzZi1CcDBfNkswYUY1TXVpd3lnYnFZ?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "PC閒置大量記憶體 OpenAI CEO：DRAM應優先供資料中心 DIGITIMES",
-      "time": "2026-11-02T10:54:00+08:00"
-    },
-    {
-      "title": "〈勞動基金績效〉前9月收益率30%！新制勞退分紅創紀錄 1310萬戶均領13萬元",
-      "link": "https://news.cnyes.com/news/id/6643688",
+      "title": "盤中速報 - 櫃買市場加權指數下跌-22.28點至346.96點，跌幅6.03%",
+      "link": "https://news.cnyes.com/news/id/6644926",
       "source": "鉅亨網·台股",
       "category": "媒體新聞",
-      "summary": "勞動基金9月單月賺1,178億元，前9月累計收益2兆4,405億元、收益率30.73%，規模達9兆2,109億元。 新制勞退累計收益1兆7,044.2億元，1,310萬戶平均分紅13.01萬元；舊制勞退收益率44.16%居各基金高。 台股9月大漲與AI供應鏈帶動，分配非人人領13萬，依市場調整配置。",
-      "time": "2026-11-02T10:52:59+08:00"
+      "summary": "截至台北時間03日12:39，櫃買市場加權指數下跌22.28點（或6.03%），暫報346.96點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-8.26%。其中 旺矽(6223-",
+      "time": "2026-11-03T12:39:22+08:00"
     },
     {
-      "title": "MoneyDJ新聞 2026-11-02 10:48:39 蔡承啟 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeHpidkVPVGhvdzl5Z0had1dGRDB3MGZTWkJzTUpVblJiRUE5RFVEZVh4SUdrcEw3MTNBVnJwU1RFS1dfb0JoSzNVOUpBU05YTlk2ek9oc1lGLTRKLVJYYVBHbkt2bEtMVk9LczBtcThValdIVVRWcHNfMmJVSFcydXBVOEU1UQ?oc=5",
+      "title": "MoneyDJ新聞 2026-11-03 12:06:13 黃文章 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaEJyRDdCeldRbkhqel93TjNYa1Y5NVVQeVJveFdUT3VoQ1NMRmpjaF9lWDRhRWtiZjBOQVg1dVZHWXhaLTNSYzJ3cFc2eXNHdUEwYzBlMEZrZUlRVmNPUDl5YU9GcXRDR3h1NHpPYm9oTEtsSXdTZTg0cUU2dWpwd3ZxY0MxWUlnUDZoUG1ISTdqb1U?oc=5",
       "source": "MoneyDJ",
       "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 10:48:39 蔡承啟 發佈 MoneyDJ",
-      "time": "2026-11-02T10:48:39+08:00"
+      "summary": "MoneyDJ新聞 2026-11-03 12:06:13 黃文章 發佈 MoneyDJ",
+      "time": "2026-11-03T12:34:26+08:00"
     },
     {
-      "title": "AI資料中心訂單旺到產能不夠 村田豪擲1兆日圓擴產MLCC - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MbEZaZFc1eEZZb0FuVWMtVUsxN0hqQVFYRzNnXzJHU3RZa0pHdnEwakk4Q1ZzS3VUX05jZW13REF5QzA4Z1RZTXZPWmt5dXpPSlU4N29WUlVzNjRLQWZ3WTNsQjhaZzZ4YU9Z?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "AI資料中心訂單旺到產能不夠 村田豪擲1兆日圓擴產MLCC DIGITIMES",
-      "time": "2026-11-02T10:46:00+08:00"
-    },
-    {
-      "title": "盤中速報 - 吉祥全(2491)股價拉至漲停，漲停價44.55元，成交1,925張",
-      "link": "https://news.cnyes.com/news/id/6643697",
+      "title": "川普才說美伊數月未交戰！傳美軍突襲伊朗荷姆茲海峽戰略要島",
+      "link": "https://news.cnyes.com/news/id/6644858",
       "source": "鉅亨網·頭條",
       "category": "媒體新聞",
-      "summary": "吉祥全(2491-TW)02日10:42上漲4.05元，股價漲停報44.55元，委買5張、委賣157張，成交1,925張。主要業務為光學資訊相關產品。吉祥全(2491-TW)近5日股價上漲14.73%，集中市場加權指數下跌1.8%，股價漲幅表現優於大盤。近5日籌碼 三大法人合計買賣超：+9 張",
-      "time": "2026-11-02T10:42:12+08:00"
-    },
-    {
-      "title": "盤中速報 - 榮星(1617)股價拉至漲停，漲停價22.25元，成交586張",
-      "link": "https://news.cnyes.com/news/id/6643693",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "榮星(1617-TW)02日10:34上漲2元，股價漲停報22.25元，委買2張，成交586張。主要業務為漆包線、鍍錫銅線、電子線、偏向軛、馳返變壓器、消磁線圈、線圈。一般進出口貿易業務(許可業務除外)。代理國內外有關產品之經銷、投標及報價業務。榮星(1617-TW)近5日股價下跌10%，集中市場加",
-      "time": "2026-11-02T10:34:53+08:00"
-    },
-    {
-      "title": "蘋果財報明天揭曉 iPhone 18銷量成關注焦點",
-      "link": "https://news.cnyes.com/news/id/6643678",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "蘋果(AAPL-US) 將於2日美股盤後公布2026年度第四季財報。 投資者得以一窺iPhone 18 Pro初步銷售表現。 蘋果首款摺疊機iPhone Duo不計入第四季財報。",
-      "time": "2026-11-02T10:33:58+08:00"
-    },
-    {
-      "title": "盤中速報 - 驊陞(6272)股價拉至漲停，漲停價24.75元，成交223張",
-      "link": "https://news.cnyes.com/news/id/6643687",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "驊陞(6272-TW)02日10:28上漲2.25元，股價漲停報24.75元，委買3張、委賣3張，成交223張。主要業務為連接零組件、無線零組件及汽車零組件生產製造。國際貿易.汽車及其零件製造.照明設備製造.電子代工製造服務。無線通信RF天線設計製造、消費電子產品.光纖零組件製造銷售。驊陞(6272",
-      "time": "2026-11-02T10:28:58+08:00"
-    },
-    {
-      "title": "盤中速報 - 百德(4563)股價拉至漲停，漲停價62.9元，成交282張",
-      "link": "https://news.cnyes.com/news/id/6643684",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "百德(4563-TW)02日10:24上漲5.7元，股價漲停報62.9元，委買2,000張、委賣4,000張，成交282張。主要業務為電腦控制之工具機設計、製造及銷售。工具機零件、原物料之進出口貿易買賣業務。工具機售後保養維修服務。百德(4563-TW)近5日股價上漲2.88%，櫃買市場加權指數下跌",
-      "time": "2026-11-02T10:24:35+08:00"
-    },
-    {
-      "title": "鴻海攜手醫院與設備商 AI代理、醫療機器人同步推進智慧醫療 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1aeFBVbEo1Z1BsMnJHRkYzN0JHeEVUSHFoTWNHc0pJWTdSbWN2NU03WGVYamtPWmYtWVk1WElrT0o1Uk43Ymh5bXhIU21uMmFhMlFRblJMd1F0UWp6WjIyMG1oTkpueWNzcjdR?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "鴻海攜手醫院與設備商 AI代理、醫療機器人同步推進智慧醫療 DIGITIMES",
-      "time": "2026-11-02T10:24:00+08:00"
-    },
-    {
-      "title": "黃金可能繼續下跌？高盛揭金價跌破4000美元原因",
-      "link": "https://news.cnyes.com/news/id/6643647",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "金價跌破4,000美元，高盛指主因非避險基金，而是大型持倉者為流動性需求加速賣金 自9月22日以來黃金期貨累計賣壓195億美元，五週合計拋售約150公噸，幾乎抵銷央行近兩個月購金量 高盛短線看3,850美元支撐，長期仍維持2027年底5,400美元目標價，主因央行持續買進與去美元化",
-      "time": "2026-11-02T10:20:41+08:00"
-    },
-    {
-      "title": "外匯速報 - 美元/馬來西亞令吉(USDMYR) 大漲0.3%，報4.066元",
-      "link": "https://news.cnyes.com/news/id/6643683",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "截至台北時間02日10:16，美元/馬來西亞令吉上漲0.012點漲幅達0.3%，暫報4.066點。歷史漲跌幅近 1 月：-0.69%近 1 週：-0.71%近 3 月：-0.71%近 6 月：+2.19%今年以來：-0.05%美元/馬來西亞令吉近90天正相關的前3貨幣對",
-      "time": "2026-11-02T10:20:20+08:00"
-    },
-    {
-      "title": "中國大宗商品價格指數報告出爐：今年平均132.1點 年增17.6% 三大不確定性影響2027走勢",
-      "link": "https://news.cnyes.com/news/id/6643580",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "中物聯指2026中國大宗商品市場整體平穩向好，展現較強韌性。 2026價格指數全年均值估132.1點，年增17.6%；有色、化工、能源漲23.1%、22.1%、14.8%。 展望2027年，市場將轉向結構性調整，能化回調，有色受新能源、AI等需求支撐。",
-      "time": "2026-11-02T10:20:02+08:00"
-    },
-    {
-      "title": "盤中速報 - 明遠精密(7704)股價拉至漲停，漲停價96.0元，成交9,023張",
-      "link": "https://news.cnyes.com/news/id/6643681",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "明遠精密(7704-TW)02日10:19上漲8.7元，股價漲停報96.0元，委買3,000張、委賣106,000張，成交9,023張。主要業務為半導體設備子系統技術服務、半導體設備子系統銷售。明遠精密(7704-TW)近5日股價上漲30.69%，櫃買市場加權指數下跌2.99%，股價漲幅表現優於大盤",
-      "time": "2026-11-02T10:19:25+08:00"
-    },
-    {
-      "title": "盤中速報 - 油電燃氣類股表現強勁，漲幅2.48%，總成交額9.00億",
-      "link": "https://news.cnyes.com/news/id/6643680",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "台股今日油電燃氣業類股表現強勁，02日10:19相關指數上漲2.48%，總成交額9.00億元，大盤占比0.25%。該產業上漲家數6、下跌家數2、平盤家數1。領漲個股新海(9926-TW)02日10:07股價上漲0.65元，報49.3元，漲幅1.34%。油電燃氣近5日下跌6.97%，集中市場加權指數下",
-      "time": "2026-11-02T10:19:18+08:00"
-    },
-    {
-      "title": "盤中速報 - 雷笛克光學(5230)股價拉至漲停，漲停價28.4元，成交2,052張",
-      "link": "https://news.cnyes.com/news/id/6643679",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "雷笛克光學(5230-TW)02日10:16上漲2.55元，股價漲停報28.4元，委買1,000張、委賣210,000張，成交2,052張。主要業務為照明設備製造業。光學儀器製造業。電子零組件製造業。雷笛克光學(5230-TW)近5日股價上漲3.82%，櫃買市場加權指數下跌2.99%，股價漲幅表現優",
-      "time": "2026-11-02T10:16:45+08:00"
-    },
-    {
-      "title": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過5.92億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
-      "link": "https://news.cnyes.com/news/id/6643677",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "指標幣種：比特幣(BTC)現報價格78,388.01美元，24小時漲跌幅+0.81%；以太幣(ETH)現報價格2,293.55美元，24小時漲跌幅+1.11%。亮點幣種：USDC(USDC)24小時成交量達5.92億美元；比特幣(BTC)24小時成交量達5.44億美元；以太幣(ETH)24小時成交量",
-      "time": "2026-11-02T10:15:18+08:00"
-    },
-    {
-      "title": "盤中速報 - 台端(3432)股價殺至跌停，跌停價14.95元，成交203張",
-      "link": "https://news.cnyes.com/news/id/6643675",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "台端(3432-TW)02日10:13下跌1.65元，股價跌停報14.95元，委賣100張，成交203張。主要業務為連接器。台端(3432-TW)近5日股價上漲19.86%，集中市場加權指數下跌1.8%，股價漲幅表現優於大盤。近5日籌碼 三大法人合計買賣超：-2 張 外資買賣超：-2 張",
-      "time": "2026-11-02T10:13:52+08:00"
-    },
-    {
-      "title": "陳立武再提中美晶片差距縮小 英特爾積極布局量子運算新商機 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbk5uRU9fYklZdzFrdllRR3ppNVdyYk9MMWpCMm16MTBOb2hiTmpnM3NNNllkWHpqNFFWWXRIc3BZMjBvUXRBcTIyRUhRT0pkdHpVV2Y4Njh1X1NBaThpYTBpTE1UbkQ5a3BMbGVtejJQVG1CanJzMWs2aHh4Vm9GQXdFVG5fQmg5WXhaQ1RkQUY4SlBkUkxuMUlaSko5bUw2OTZn?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "陳立武再提中美晶片差距縮小 英特爾積極布局量子運算新商機 DIGITIMES",
-      "time": "2026-11-02T10:13:00+08:00"
-    },
-    {
-      "title": "盤中速報 - 全景軟體(8272)股價拉至漲停，漲停價85.9元，成交200張",
-      "link": "https://news.cnyes.com/news/id/6643673",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "全景軟體(8272-TW)02日10:06上漲7.8元，股價漲停報85.9元，委買436,000張，成交200張。主要業務為資訊軟體服務業。資料處理服務業。電子資訊供應服務業。全景軟體(8272-TW)近5日股價上漲15.53%，櫃買市場加權指數下跌2.99%，股價漲幅表現優於大盤。近5日籌碼",
-      "time": "2026-11-02T10:06:58+08:00"
-    },
-    {
-      "title": "盤中速報 - 電子通路類股表現疲軟，跌幅2.07%，總成交額14.76億",
-      "link": "https://news.cnyes.com/news/id/6643653",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "台股今日電子通路業類股表現疲軟，02日10:04相關指數下跌2.07%，總成交額14.76億元，大盤占比0.42%。該產業上漲家數5、下跌家數16、平盤家數1。領跌個股大聯大(3702-TW)02日10:04股價下跌3.5元，報105.0元，跌幅3.23%。電子通路近5日下跌2.25%，集中市場加權",
-      "time": "2026-11-02T10:04:24+08:00"
-    },
-    {
-      "title": "盤中速報 - 造紙工業類股表現強勁，漲幅2.03%，總成交額0.79億",
-      "link": "https://news.cnyes.com/news/id/6643652",
-      "source": "鉅亨網·頭條",
-      "category": "媒體新聞",
-      "summary": "台股今日造紙工業類股表現強勁，02日10:04相關指數上漲2.03%，總成交額0.79億元，大盤占比0.02%。該產業上漲家數4、下跌家數1、平盤家數2。領漲個股永豐餘(1907-TW)02日10:04股價上漲1.35元，報29.45元，漲幅4.8%。造紙工業近5日下跌1.33%，集中市場加權指數下",
-      "time": "2026-11-02T10:04:23+08:00"
-    },
-    {
-      "title": "幣安重啟後湧現提款潮 動用自救儲備填補資產缺口 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJYVRRcHBPcElybnhGRm5KeE01LVluRG9LX2U1b1Bka0loTkw1d0Z2RDZIOTJldFVJRWVGVGFJcF96Zmw5Vy1OMmpDbTVWNFJHUHBnbTUzMlljWnd2ZDZEa3hycVNUdzh5VUJZ?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "幣安重啟後湧現提款潮 動用自救儲備填補資產缺口 DIGITIMES",
-      "time": "2026-11-02T10:04:00+08:00"
-    },
-    {
-      "title": "幣安遭駭63億美元始末曝光 跨國徹夜防堵直指北韓黑手 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kaENFeTlZa2cwYWlWTG9nQVRyX1ZtZHNWWTVKcHpPdW9CeFBGV2dCUTFKSXFBS1U2RVJSNDNIWWFQZnZsVXJYZGhXaHdIa2dheTBOLUV3Q2U5V1RLU19GU1BMZ0ROeWtueUhB?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "幣安遭駭63億美元始末曝光 跨國徹夜防堵直指北韓黑手 DIGITIMES",
-      "time": "2026-11-02T10:02:00+08:00"
-    },
-    {
-      "title": "集保信任金融雙重升級 新增戶戶通申請及eSMART雙因子驗證",
-      "link": "https://news.cnyes.com/news/id/6643619",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "集保結算所升級「集保e手掌握」App，新增「戶戶通」申請管道，搭配臺網數位憑證可全天候申請手機存摺。 目前「集保e手掌握」App開通戶數逾830萬戶，新開戶投資人申請手機存摺比率達95%。 「eSMART系統」導入雙因子驗證2FA，強化證券商等全市場參加人帳號與交割結算作業資安防護。",
-      "time": "2026-11-02T09:58:40+08:00"
-    },
-    {
-      "title": "〈焦點股〉韋僑業績連4季創新高 量能激增重返百元價位區",
-      "link": "https://news.cnyes.com/news/id/6643635",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "韋僑第3季營收5.1億元、年增25.85%，爲連4季創新高。 前3季營收14.44億元、年增22.08%；上半年稅後純益1.53億元、年增89.13%，EPS 3.62元。 法人估全年營收將破16.07億元新高，2026年EPS上看7.5元；日本醫藥市場布局擬2028年量產。",
-      "time": "2026-11-02T09:58:15+08:00"
-    },
-    {
-      "title": "盤中速報 - 櫃買市場加權指數下跌-7.49點至362.77點，跌幅2.02%",
-      "link": "https://news.cnyes.com/news/id/6643641",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "截至台北時間02日09:56，櫃買市場加權指數下跌7.49點（或2.02%），暫報362.77點。歷史漲跌幅近 1 週：-2.99%近 1 月：-11.59%近 3 月：+6.44%近 6 月：-3.72%今年以來：+34.04%焦點個股MLCC電容概念領跌-3.96%。其中 禾伸堂(3026",
-      "time": "2026-11-02T09:56:33+08:00"
-    },
-    {
-      "title": "鴻海集團FII結合FIT 從運算到互聯、電力、散熱打群體戰 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZlpla3RMUnFVY0taZktTcmVrRmxTUVNxbUNDbTBqTG1sU1F4bFhuRU0yVkFfNURJYlZWNzRQVy00bVZHTnVPZlNhWWh3LWh0WlhDWmpIcXAyb09lbWpOQUxHZEdqY3dxSGZKLTVqSk03QnFsaURBQXlsc21LWHhwV3FDMWdLRDhHQ19wWkVuRnBqZHNJenNTSG1MbU8zUWlYcTNr?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "鴻海集團FII結合FIT 從運算到互聯、電力、散熱打群體戰 DIGITIMES",
-      "time": "2026-11-02T09:56:00+08:00"
-    },
-    {
-      "title": "佳芯科技集團有限公司 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOTE2MVA0UmN3UXJITnRhLXY1VXY5UVk5cFRlWTF1WnJLdjk4TGdYYi1EUEtBUmpaWHVma1hRRlpSMlJZV3MyVDZPS3kyUVpaRmdhMFloOU56NzBSM1oxVi0ta0VKcHRtVlB1MHZNX0lEalV5eHNGakZtOExPN1F2eWNOeXZTT28zV2dWd3hXMWw0bWlKTDF3?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "佳芯科技集團有限公司 MoneyDJ",
-      "time": "2026-11-02T09:51:00+08:00"
-    },
-    {
-      "title": "Sam Altman週末突襲訪韓 接連會三星、SK擬為確保HBM供應與AIDC合作 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZDNlbGFjY0p5SHZFMUlWNFJnLWQwdVRVQS1QX0Q5WDBzOTZnN0pXR2lLZjhiTnZHWjk4XzJ2dkt1VDlJR01TOVF6dGpJZGc0ZUFhZ2tNOWNSaU1xWWN2bFhOT1h3S0hWWmptZDBaaUw5bHEteGZ3Yl9GeEo0RmJDSjlTdW00RXQ0MDFFSVVxNm5BendfTlpB?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "Sam Altman週末突襲訪韓 接連會三星、SK擬為確保HBM供應與AIDC合作 DIGITIMES",
-      "time": "2026-11-02T09:45:00+08:00"
-    },
-    {
-      "title": "毅嘉前10月營收逼近去年全年 光通訊產品通過認證開始量產",
-      "link": "https://news.cnyes.com/news/id/6643615",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "機構件暨軟硬板廠毅嘉(2402-TW)10月營收為11.3億元，年增逾2成，累計前10月營收106.3億元，年增17%，已與去年全年營收的108億元相當；毅嘉光通訊產品已通過驗證，並開始出貨。 毅嘉10月營收11.3億元，月減0.23%，年增率20.51%；累計前10月營收106.3億元，年增17",
-      "time": "2026-11-02T09:41:49+08:00"
-    },
-    {
-      "title": "〈台股開盤〉一度重摔逾800點 聯發科、鴻海挺身而出力守4萬5",
-      "link": "https://news.cnyes.com/news/id/6643616",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "美股四大指數上周五(30日)續挫，其中，英特爾(INTC-US)暴跌近30%，台股繼上周五重挫1156.5點後，今(2)日再度走跌，早盤以45034.53點開低，一度跌逾800點，最低跌至44399.1點，不過在鴻海及聯發科走揚下，盤中跌勢收斂，力守4萬5關卡，預估成交量8000億元。",
-      "time": "2026-11-02T09:39:52+08:00"
-    },
-    {
-      "title": "《DJ在線》AI ASIC競爭升級，聯發科拚整合力- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSnAyTlpmWk1xOGZiSGxwdFpvWFhpN0QxYU5ZSEdKQUpCS3VlaG1yQ3p0ZE5SbnhHSnlUSW5GOFg4QjNhSjNON0xCYWw0ZEUxN3RoMUJSWVFqeUpDZVNjOHNYQlpzdTVGenNFTnI1bG9faGRhV2QwLWw1dHE3Q09kLXJnR2p2RG53NVZpUklEaDhmQQ?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "《DJ在線》AI ASIC競爭升級，聯發科拚整合力- 新聞 MoneyDJ",
-      "time": "2026-11-02T09:38:00+08:00"
-    },
-    {
-      "title": "新聞內容-金融 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ25GaHlUTUx5SmgwYmxNeFdfb2dHeVV2ajY3NDc5WE9Cb0ZEMG9YNjZRWnNHRmJpai1fTHphWHhqRXZ1bUhDcFhocjNKelFHSzl6ckdqVzJaNlJqa3BfUm85ZS1zSkRycGk0c190TFo0Z2doREhGMUd5X0RMYUc0OEpxNjFRQnlMNkx5aTEzRWVERm8?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "新聞內容-金融 MoneyDJ",
-      "time": "2026-11-02T09:16:29+08:00"
-    },
-    {
-      "title": "與阿里達成合作，蘋果AI接入千問/12月在陸推出- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR0l4b3ZIOS1FbFZEazYxZzk2Qk43QmVfX2phLTk0V1JfUHBnanN1TzZ3Um5QZHhrRFYzVVM1aUhmaGhZQldwVnZnNVppalRuTGlqaENhWEt4eGVfRDljeDNCNXJETHBMUlJNb2FsWklOd010VkRpWWpocHRIZV9RMFlhUFJ0SnBKeE9RY1VCSFpGUQ?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "與阿里達成合作，蘋果AI接入千問/12月在陸推出- 新聞 MoneyDJ",
-      "time": "2026-11-02T09:08:00+08:00"
-    },
-    {
-      "title": "同欣電：AMB陶瓷基板明年放量；光通訊成長動能可期- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb3RMc0RLNEIyeTN4cTVfRVVpS3h3VW1RRDlOalVJczJ5QU9fME5odm5SQ1FQckpKNi1Dc2JPblU2WGJkcHRMUTltQi04ejZtRkJQTVFZRFRTWU1TVGlUMExuODVvY2c2R0FQc3h4NVlqTDlmYUlHYzUxcXVMeThwRFlYRFEza0Ywb21kV1Y4dXN5QQ?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "同欣電：AMB陶瓷基板明年放量；光通訊成長動能可期- 新聞 MoneyDJ",
-      "time": "2026-11-02T09:06:00+08:00"
-    },
-    {
-      "title": "華通明年AI/衛星營收占比拚逾5成轉向非消費性市場- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbi1rTVA2eHYyRkdTTmJSZUlMT1FRcHdCLUVEeHVMa1d5Y0p3S2tkQnE0TjFjcUV3WTFtSXpVSWFwWVNncTFkV2V3V2p1bldlcEFuakdhZmNsM25scXhCMXFObE9JbzlZWUJ1dllsVTBNNzBrclhKV1RYR1FoS1RnM1NNOF9uakVkeVl5TTZjeFJ6UQ?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "華通明年AI/衛星營收占比拚逾5成轉向非消費性市場- 新聞 MoneyDJ",
-      "time": "2026-11-02T09:01:00+08:00"
-    },
-    {
-      "title": "iQuote-MoneyDJ理財網 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcHhvRW9ud3ZicjhjM2RpUWpKbnYyeTNlMzdURGcwZWNwZ2pGbkRRazlWVnhSV0RaUHh0M0xZVzlWZHJZY3p1QmttTTV3NmNDTUpKczZIUHFNaW9CR0VoejE3RXlHWm9YbGhhdFJON1NlNmlualMxeTJRSmxLbnBvNVM5dw?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "iQuote-MoneyDJ理財網 MoneyDJ",
-      "time": "2026-11-02T08:41:03+08:00"
+      "summary": "美國官員稱周一(2日)對伊朗格什姆島發動空襲，回應伊朗向美軍機開火 WSJ指美軍近周對伊朗持續有限度打擊；格什姆島鄰近荷姆茲海峽，設地下飛彈基地 范斯稱美伊談判有良好進展，川普政府盼以外交方式達成談判解決方案",
+      "time": "2026-11-03T12:30:09+08:00"
     },
     {
       "title": "自主理財 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40ZWtGUG9ia0NRTkpFYm1wakFadVFNYlYxckkyOUVWNGFRRDhoWVlhMTlXOFlLenQ4ek5jcm5qcDdmZW42UmpESU5CYkdsS1BiSXR6YXRpdEVhN0dpeGNrM1lYa01Eb2lDQ3NFNEhvRzlYTG8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nQmVlQldfSEcyVmp3d0R0Y05qRFVfSGVqallBcXJSV045ZDVIWVhzLWJHSEdiRjFmSUM3YXVla2Zhb3hpeGVrQk9MSXpfV0NfWEJHX3F1VWlCaUhRSEdiN2JmemRxV2NDT0RPTy1CYl9GR0U?oc=5",
       "source": "MoneyDJ",
       "category": "媒體新聞",
       "summary": "自主理財 MoneyDJ",
-      "time": "2026-11-02T08:19:05+08:00"
+      "time": "2026-11-03T12:21:11+08:00"
     },
     {
-      "title": "MoneyDJ新聞 2026-11-02 08:06:10 黃文章 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU0QyejZzdVp3SmM5RjFlekhRbjI1aUlva1BROVY1c0NTejB4dUIyZDItdzNHN19iclQwOE54R0thRXZ6clQyRXpXWTY4T1dvNURweGtDWEZvMzh5U2RzNk9McVU5VXBvdWtId0c1anR4T2RaRlIxdE1NWWNzd0NFZ1VqZnpTRmVlYWRKQldUaHBUQXc?oc=5",
-      "source": "MoneyDJ",
+      "title": "PIMCO執行長示警：AI融資規模五年內恐達10兆美元 最終將「過度」",
+      "link": "https://news.cnyes.com/news/id/6644861",
+      "source": "鉅亨網·頭條",
       "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 08:06:10 黃文章 發佈 MoneyDJ",
-      "time": "2026-11-02T08:06:50+08:00"
+      "summary": "PIMCO執行長Roman警告，AI相關融資未來五年恐膨脹至約10兆美元，可能達「過度」水平並引發市場危機。 他估未來五年AI業每年需約2兆美元資本支出融資，規模已接近美國整體債市約12兆美元。 Roman稱轉折點恐由美國升息、中東戰爭或歐元區危機觸發；黑石Gray則看好AI帶動生產率與投資。",
+      "time": "2026-11-03T12:20:26+08:00"
     },
     {
-      "title": "MoneyDJ新聞 2026-11-02 07:59:43 新聞中心 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYTZlNUMwVlZMb1ptVU1pS0VqeW43eWFma2tTUnFPcnJ4aGNYaWhIcFBrRUJOeUdfejZEdDBUX0RKSW5QS1dPaTVKR0RmWm8wZWwwZGE2NF9oTkJJdlFveXM4WDVIWEpyS0h1QWFROTJmLU1XYVpkXzE1dHkyU1hSVXFqcV9XT1FPS3FvTTNPR3lNVTQ?oc=5",
-      "source": "MoneyDJ",
+      "title": "金價跳水 大金鐲又熱賣了 中國線下櫃檯被顧客包圍",
+      "link": "https://news.cnyes.com/news/id/6644592",
+      "source": "鉅亨網·頭條",
       "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 07:59:43 新聞中心 發佈 MoneyDJ",
-      "time": "2026-11-02T08:05:27+08:00"
+      "summary": "近日中國多家金店銷售人員表示，受金價下行影響，來金飾店購買的消費者明顯增多。 有偏好小克重飾品的年輕人，也有全家出動拿下幾十克大金鐲。 短期內金價下跌會帶動「以舊換新」和悅己消費提升。",
+      "time": "2026-11-03T12:16:00+08:00"
     },
     {
-      "title": "9月銀行承作衍生性金融商品交易量合計24.27兆元 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcFlNVTYzTGFUWGNlNnk2WV9sY0EwWTVJVVJDSXB5dndpXy1wenJDelFQb0F4bWhYbVY0QWxCb0wtT0lwSTBMUWxpM1BJUTJyQXhDeWNQSlIzZkVBazNJWEdBZnhNWER3VU0zNTRDeGJwZHRHRldJb0F5Q29rQ0hBMlgweElsampKNktXa3I3ZXY0ZTg?oc=5",
-      "source": "MoneyDJ",
+      "title": "八大工商團體挺台電、中油撥補 盼能源價格調整透明、可預期 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oandvX3ktdWN4V0xYME9WNEhMTGtCU0Z6QzlaYjREY3lVVTdQeGJGVEZBVHFoRjVKdDctekVoemRfVzFaUklpWC1hTFlFVnYtczZRWHVHRm80M2dTWEdVdlRMZEJtb2tVQWx3?oc=5",
+      "source": "DigiTimes",
       "category": "媒體新聞",
-      "summary": "9月銀行承作衍生性金融商品交易量合計24.27兆元 MoneyDJ",
-      "time": "2026-11-02T07:46:18+08:00"
+      "summary": "八大工商團體挺台電、中油撥補 盼能源價格調整透明、可預期 DIGITIMES",
+      "time": "2026-11-03T12:12:00+08:00"
     },
     {
-      "title": "MoneyDJ新聞 2026-11-02 07:43:53 蔡承啟 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMWJMVEMxMXRLdkdyVC1DMTlLYlFKQkRQRVdTV3ZteFpIRFFpeVFHVTVxSkRUS3JFZHRPcXNDd0FUR1NtYjlDcHNwa1l3cWs4OTZ0V2FrS1RQTjdlSWlrSlBFY01iYTJUbDN4VTlqaG5SVnRlQW9rQVFSZVE3V2VhM1BwME55Zw?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 07:43:53 蔡承啟 發佈 MoneyDJ",
-      "time": "2026-11-02T07:43:53+08:00"
-    },
-    {
-      "title": "PC業務惡化超預期 英特爾崩28%、拖累AMD - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMkpaN0ZNQkJOTmthOWMyeTF1YWE3dnBzaUdUWWZ3MlBTUDJoOGNHRnR6dG1wVEZCRmtIV01rNW9VSXZ3MFRWQjZsZ1F0X1BDUzl4aGc5emQ3R2lIMUFPTU1QQWZMdUIteHpubXF2RTIwVWo3QkdoMlV0TGJ6WHVTQVVaUzlYRFJYTXRVeDlSNmRaQQ?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "PC業務惡化超預期 英特爾崩28%、拖累AMD MoneyDJ",
-      "time": "2026-11-02T07:33:00+08:00"
-    },
-    {
-      "title": "MoneyDJ新聞 2026-11-02 07:17:12 黃文章 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYXlUY1cwdFNCTzdoaUZxQWdfb3l3akMzeU5qVng4X1dMTFBCSldDaU8tZVE1SGJrQUFQMVdFOTk2WW15WTBZVk9VWFo0d2kzbnY1T0pOdWpzVzQ1d0l6TDhJelg2MURuak9sSTEwSm9NMm1zZlB0RWRXV3BrVF9lS215MWY3Q0xYckVETFhTTUg4YTA?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 07:17:12 黃文章 發佈 MoneyDJ",
-      "time": "2026-11-02T07:21:01+08:00"
-    },
-    {
-      "title": "MoneyDJ新聞 2026-11-02 06:22:53 李彥瑾 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ2RsWmJxaDNrajIyME1Dd1c5ZkNyVU4zLWFFWTdobzU3SlZtLUhVVWJUR25mT1ZiUXpsNUtpaU91Nk9ERzloUHJ0YnpZSEFGSE1QdmFfa1RlcnpMMWg2aF84MllMRWZBb185ZFRTcEk1Qld5SlhlMWFQZEc1OTJZc1h2YmRfVFNsWUpnNkVha1N6NkE?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 06:22:53 李彥瑾 發佈 MoneyDJ",
-      "time": "2026-11-02T07:10:40+08:00"
-    },
-    {
-      "title": "MoneyDJ新聞 2026-11-02 06:37:12 黃文章 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObnc2clY2TE42dDNReVk4WWgtb2xRazhBSjh3YW4wVWhWRzh1R3lQSXhvY1paQnlueWp4akh2RERIRVA4QVlac0pyRy04RzA4VUVDUzFiOG5OVGtWVElLSndNU09WUDNXbUpHSU16Tlg5NVdpVURkbjE3S0gxVnhmOWk5cUR5SU1qMDZNZ1U1V2s3c0U?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 06:37:12 黃文章 發佈 MoneyDJ",
-      "time": "2026-11-02T07:10:22+08:00"
-    },
-    {
-      "title": "《農產品》豐收預期 CBOT農產品全面下跌-台股 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaTM5N0xGQWZCZ1FybzF3SVI3Um5WQ2NNWW01MmVSVGNaLXhoOFJoOU9ldXkwOWIyNDdnaHFYZTg1cExtcTc0TzBTc0tIcHRfRW1RcHpPNXRGbUdVY2VSUkFjYlNIanRwTHk1TE1IRTFoVHdEYTZHWnlDaGd2RGVGS1NuR1pxV0ZKLWc?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "《農產品》豐收預期 CBOT農產品全面下跌-台股 MoneyDJ",
-      "time": "2026-11-02T06:37:49+08:00"
-    },
-    {
-      "title": "《貴金屬》COMEX黃金下跌3.3% 創一年新低-台股 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa2VmM0huSUw4UmVfZ3NXWnEzTk1ucmlQVHQ5VzdRc3dUaE9ldW9QdUpTNHVhQjliUVlWZl81R1NFV2pYSEhEcnlnRElEMVk3eDRDS0tRWUhpR1d1UnVQUFRBOGlROWZjcnpob1VkZGVJc1M2My1tX3h5MG9hY2pBSFZhdDkyTnJQcEE?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "《貴金屬》COMEX黃金下跌3.3% 創一年新低-台股 MoneyDJ",
-      "time": "2026-11-02T06:37:34+08:00"
-    },
-    {
-      "title": "MoneyDJ新聞 2026-11-02 06:03:47 蔡承啟 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYVdCODlkVnJKZzJTS21HaHV3Q0lXSXplY0xkQm1TWUV0SmJmQllKR1lqQTBNSVFXc0hYTEV6ZTlGYzV1cEdTbHNyaE9LdElZMFdsNlZLX1l1Z1RPY0pVaGVQSS1VVVlEQTJKMElYQ2FEWGgyb0llYlZEX0RKZTV3cGJORUxfUQ?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "MoneyDJ新聞 2026-11-02 06:03:47 蔡承啟 發佈 MoneyDJ",
-      "time": "2026-11-02T06:03:47+08:00"
-    },
-    {
-      "title": "NAND Flash廠鎧俠純益估飆14倍、27年產能\"售罄\" - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWUVmTmtPUEl0VVVpc1FqV24tSFVPUlRKSDFfLWFZRW9HMGx4UUc1VmVaMm9wbUhyaGZ2YkEwcmktb3BxQUtQTUV5RlZqb0pWeGEyUkpkRFVKODRWUjhTdWVTY05wb0pBVU9xbmRIQmk0U0JnUEI4ZjVzbmJNa2JrcVlnS1hUSkR5ZEswQzRYT29sdw?oc=5",
-      "source": "MoneyDJ",
-      "category": "媒體新聞",
-      "summary": "NAND Flash廠鎧俠純益估飆14倍、27年產能\"售罄\" MoneyDJ",
-      "time": "2026-11-02T06:03:00+08:00"
-    },
-    {
-      "title": "〈台股盤前要聞〉鴻海AI伺服器機架產能翻倍、聯發科ASIC Q4營收上修至25億美元",
-      "link": "https://news.cnyes.com/news/id/6643408",
+      "title": "盤中速報 - 集中市場加權指數下跌-1575.62點至43344.52點，跌幅3.51%",
+      "link": "https://news.cnyes.com/news/id/6644911",
       "source": "鉅亨網·台股",
       "category": "媒體新聞",
-      "summary": "台股盤前要聞 1.鴻海(2317-TW)30日舉行2026年鴻海科技日，董事長劉揚偉於開幕致詞時表示，今年邁入第七屆，也是歷年規模最大的一次，特別要向外界展示鴻海的「加乘力」及「垂直整合力」。他也透露，短短一年內，鴻海AI伺服器機架週產能已從上次科技日的1,000架翻倍至每週2,000",
-      "time": "2026-11-02T05:10:03+08:00"
+      "summary": "截至台北時間03日12:10，集中市場加權指數下跌1575.62點（或3.51%），暫報43344.52點。歷史漲跌幅近 1 週：-2.44%近 1 月：-7.33%近 3 月：+4.18%近 6 月：+15.4%今年以來：+55.09%焦點個股CPO封裝概念領跌-8.65%。其中 旺矽(62",
+      "time": "2026-11-03T12:11:35+08:00"
+    },
+    {
+      "title": "盤中速報 - 櫃買市場加權指數下跌-23.95點至345.29點，跌幅6.49%",
+      "link": "https://news.cnyes.com/news/id/6644906",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日12:10，櫃買市場加權指數下跌23.95點（或6.49%），暫報345.29點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-8.65%。其中 旺矽(6223-",
+      "time": "2026-11-03T12:11:19+08:00"
+    },
+    {
+      "title": "美軍攻擊伊朗格什姆島！川普一邊談和平、一邊持續軍事打擊",
+      "link": "https://news.cnyes.com/news/id/6644799",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "美軍週一（2日）對伊朗格什姆島（Qeshm Island）發動攻擊，成美國近幾週來一系列有限規模軍事打擊行動中的最新一起。 根據《華爾街日報》報導，此次攻擊發生之際，美國總統川普正積極宣揚美伊達成和平協議的可能性，並呼籲在11月3日美國期中選舉結束前，不要對伊朗發動任何攻擊。 不過，《華爾街日報",
+      "time": "2026-11-03T12:10:05+08:00"
+    },
+    {
+      "title": "〈焦點股〉資金流入生技股 藥華藥全球MPN市場布局逐步完善 漲逾半根停板",
+      "link": "https://news.cnyes.com/news/id/6644805",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "藥華藥(6446-TW)積極布局MPN市場，旗下新藥Ropeg除已獲全球約50個國家核准使用於治療成人真性紅血球增多症(PV)患者，也陸續取得多國用於治療成人原發性血小板增多症(ET)患者的藥證，激勵藥華藥今(3)日無懼大盤走弱，大漲逾半根停板。 藥華藥早盤以1180元開低，盤中翻紅走",
+      "time": "2026-11-03T12:09:19+08:00"
+    },
+    {
+      "title": "Sam Altman赴阿布達比 OpenAI深化當地能源、政府與投資 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vZmtIdThFeVhYWWFYWXhRU0VTazREak5VekhKVVo3TVhPS0l0SnJJbUxsM2w4RDFJMTA5SGJEbXhHRU5WUnhiWGpiU09Qa2lLcFBSOURHTzJJak5mTnBTbTJsRERGX2ZiNHEw?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "Sam Altman赴阿布達比 OpenAI深化當地能源、政府與投資 DIGITIMES",
+      "time": "2026-11-03T12:09:00+08:00"
+    },
+    {
+      "title": "聯發科今年營收將衝破210億美元 蔡力行信心喊話「請大家多買我們家股票」",
+      "link": "https://news.cnyes.com/news/id/6644849",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "蔡力行在臺灣週喊話投資人多買聯發科股票，並看好公司長期發展，認為抱緊可望迎來回報。 聯發科預估2026年營收將突破210億美元創新高，並加速布局運算、車用與AI資料中心。 蔡力行稱NVIDIA與Alphabet參與39億美元CB，顯示國際AI巨頭對聯發科技術與策略投下信任票。",
+      "time": "2026-11-03T12:08:28+08:00"
+    },
+    {
+      "title": "新聞內容-金融 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRnJFOHpPVzBKaWx4TTRiaDZ4aWFUS3pJaXZQN0RLZXk1T2pVOEpwVzNhMnhfUG5vN2ViekVIUmRRbzZhSkw2RUpwa3dvWHpISU10ZTZDTGxSVDVYaWk4ZTdRSU9pSThENVJJX3Q5Sjd6eHFJMWp5NHFxeC1nb3FrcUJjdVdsNGNEVmFmMkhEZk0yazA?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "新聞內容-金融 MoneyDJ",
+      "time": "2026-11-03T12:02:32+08:00"
+    },
+    {
+      "title": "蘋果出包助攻三星？ iPhone Duo推出Galaxy Z Fold 8銷量反增 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TQkxOMDBlenJiejJtV3h0bFl2MWtsLUhpa1dab1BrMm02a3o4Um9DcE1CTDItVDlkaGZvdDdUOWJ0dWFUempUN1BRZGpIQTIyOVdfYUZGUERKN293dXpFdGtWTlBNNXhBTXJJ?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "蘋果出包助攻三星？ iPhone Duo推出Galaxy Z Fold 8銷量反增 DIGITIMES",
+      "time": "2026-11-03T12:02:00+08:00"
+    },
+    {
+      "title": "AI巨擘再掀融資潮 Alphabet、Meta、甲骨文等相繼大舉籌資 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0wRFBFWVEzaHBKOElSdlJrbzlWMGJNaldad0ZHb1o0d1ZBUTU3TUZ6QWVtSUlfaDZEWXkyNExKNGQxMjRVRDRxcUt4Q01seUEwTld0ekJLWkxHMVJNeS1UcFZLd19lS0w4c0JN?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "AI巨擘再掀融資潮 Alphabet、Meta、甲骨文等相繼大舉籌資 DIGITIMES",
+      "time": "2026-11-03T11:59:00+08:00"
+    },
+    {
+      "title": "毛利率警報！蘋果執行長特納斯親口承認：記憶體漲價是「空前災難」 預計未來成本會更高",
+      "link": "https://news.cnyes.com/news/id/6644803",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "蘋果Q4營收1145億美元、淨利307億，全年營收4788億、淨利1321億同創新高 毛利率47.9%，若剔除關稅退款實際回落；財務長稱主因記憶體漲價與Siri AI雲端成本 蘋果調高iPhone 18 Pro/Pro Max售價100美元，並增330億美元採購承諾；下季毛利率估45%-46%",
+      "time": "2026-11-03T11:50:13+08:00"
+    },
+    {
+      "title": "〈分析〉油價先跌、煉油利差未必跟跌：和平預期下能源股怎麼看？",
+      "link": "https://news.cnyes.com/news/id/6644844",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "美軍2日空襲伊朗格什姆島，市場重計地緣政治風險，3日布油回升0.5%至105.25美元。 油價雖受和平預期回落，但中東與俄羅斯煉廠受損、全球庫存偏低，IEA稱7月全球煉廠加工量年減約500萬桶/日。 分析指出上游看原油、下游看裂解價差；供應未恢復前，煉油利差或維持高檔，市場風險溢價難全消。",
+      "time": "2026-11-03T11:50:03+08:00"
+    },
+    {
+      "title": "顯卡11連漲後急剎車 華強北商家看不懂 不敢囤貨了",
+      "link": "https://news.cnyes.com/news/id/6644737",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "AI資料中心對記憶體晶片的爭奪，正在一路傳導到深圳華強北櫃台。 截至11月2日，顯卡價格已連跌5個交易日。 中國國產替代沒那麼快，AI需求又穩定增長，顯卡整體價格仍然會維持高檔。",
+      "time": "2026-11-03T11:45:50+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 09:52:42 蔡承啟 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2xjTi02dkZTVUJtQW56SHBwaFA0eWZvY1ltSkhsWmVTM2I1MmhIRTZNVjQxNGxXNjVpZ1k1amttckh5N193ejBxVURkd1l6SE1OcXRtTnFrM3licEJlMkxpN2NvZ1ZaWEZLUTNjbWVpVHZiMjY2Sl95bUNfNXRhRU91MlJudw?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 09:52:42 蔡承啟 發佈 MoneyDJ",
+      "time": "2026-11-03T11:41:20+08:00"
+    },
+    {
+      "title": "盤中速報 - 櫃買市場加權指數下跌-20.36點至348.88點，跌幅5.51%",
+      "link": "https://news.cnyes.com/news/id/6644843",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日11:36，櫃買市場加權指數下跌20.36點（或5.51%），暫報348.88點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-7.68%。其中 華星光(4979",
+      "time": "2026-11-03T11:36:58+08:00"
+    },
+    {
+      "title": "《不具名消息》SEP92 30年風光與風浪！編輯領路重溫面板產業祕辛 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GTjhTWnB3am5CTTJ1UC1YcWxaeGdvQmRSRXE0ME02ckJxTS1BdFNoWjNHWng4Mkk5RHlsSDM1NnRiY193MEV5NVJwV0F6M2JETWxkUmY5YU1PTDVoY0ZkdWdVYmdpdzJFQVM4?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "《不具名消息》SEP92 30年風光與風浪！編輯領路重溫面板產業祕辛 DIGITIMES",
+      "time": "2026-11-03T11:33:00+08:00"
+    },
+    {
+      "title": "盤中速報 - 集中市場加權指數下跌-1091.54點至43828.6點，跌幅2.43%",
+      "link": "https://news.cnyes.com/news/id/6644830",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日11:32，集中市場加權指數下跌1091.54點（或2.43%），暫報43828.60點。歷史漲跌幅近 1 週：-2.44%近 1 月：-7.33%近 3 月：+4.18%近 6 月：+15.4%今年以來：+55.09%焦點個股CPO封裝概念領跌-5.96%。其中 華星光(4",
+      "time": "2026-11-03T11:32:38+08:00"
+    },
+    {
+      "title": "盤中速報 - 櫃買市場加權指數下跌-19.02點至350.22點，跌幅5.15%",
+      "link": "https://news.cnyes.com/news/id/6644829",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日11:32，櫃買市場加權指數下跌19.02點（或5.15%），暫報350.22點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-5.96%。其中 華星光(4979",
+      "time": "2026-11-03T11:32:22+08:00"
+    },
+    {
+      "title": "〈房產〉北市住都中心公告 蛋黃區臨沂映華公辦都更案招商",
+      "link": "https://news.cnyes.com/news/id/6644772",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "台北市住宅及都市更新中心今(3)日正式公告招商，推動「台北市中正區臨沂段一小段301地號等8筆土地公辦都市更新案」(臨沂映華)， 此一公辦都更案基地達 378.73 坪，基地鄰近光華商圈、華山1914文化創意產業園區及捷運忠孝新生站，預計可帶動逾12.37億元民間投資。 台北市住宅及都",
+      "time": "2026-11-03T11:30:47+08:00"
+    },
+    {
+      "title": "英特爾財測潑冷水 AMD財報接棒登場！AI晶片動能還在嗎？",
+      "link": "https://news.cnyes.com/news/id/6644542",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "AMD將於週二美股收盤後公布第三季財報，市場聚焦 AI 晶片需求與近期 AI 股拋售影響。 彭博預估 AMD 第三季 EPS 1.97 美元、營收130億美元；資料中心營收料達 81.9 億美元，年增 88%。 AMD客戶業務料逾30.6億美元、年增 11%，但遊戲業務恐年減49%至6.55億美元。",
+      "time": "2026-11-03T11:30:02+08:00"
+    },
+    {
+      "title": "盤中速報 - 集中市場加權指數下跌-1067.17點至43852.97點，跌幅2.38%",
+      "link": "https://news.cnyes.com/news/id/6644822",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日11:28，集中市場加權指數下跌1067.17點（或2.38%），暫報43852.97點。歷史漲跌幅近 1 週：-2.44%近 1 月：-7.33%近 3 月：+4.18%近 6 月：+15.4%今年以來：+55.09%焦點個股CPO封裝概念領跌-5.96%。其中 華星光(4",
+      "time": "2026-11-03T11:29:22+08:00"
+    },
+    {
+      "title": "盤中速報 - 櫃買市場加權指數下跌-18.47點至350.77點，跌幅5%",
+      "link": "https://news.cnyes.com/news/id/6644821",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日11:28，櫃買市場加權指數下跌18.47點（或5%），暫報350.77點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-5.96%。其中 華星光(4979-TW",
+      "time": "2026-11-03T11:29:10+08:00"
+    },
+    {
+      "title": "盤中速報 - 集中市場加權指數下跌-896.53點至44023.61點，跌幅2%",
+      "link": "https://news.cnyes.com/news/id/6644804",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日11:14，集中市場加權指數下跌896.53點（或2%），暫報44023.61點。歷史漲跌幅近 1 週：-2.44%近 1 月：-7.33%近 3 月：+4.18%近 6 月：+15.4%今年以來：+55.09%焦點個股CPO封裝概念領跌-5.23%。其中 華星光(4979-",
+      "time": "2026-11-03T11:16:29+08:00"
+    },
+    {
+      "title": "盤中速報 - 櫃買市場加權指數下跌-14.77點至354.47點，跌幅4%",
+      "link": "https://news.cnyes.com/news/id/6644802",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日11:13，櫃買市場加權指數下跌14.77點（或4%），暫報354.47點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-5.23%。其中 華星光(4979-TW",
+      "time": "2026-11-03T11:15:55+08:00"
+    },
+    {
+      "title": "2026臺灣週登場 彭金隆：台股市值破158兆元 從「科技島」邁向「資本島」",
+      "link": "https://news.cnyes.com/news/id/6644793",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "彭金隆：台灣推動從「科技島」邁向「資本島」，台股總市值一年增逾61%至158兆元 亞洲資產管理中心成果：高雄專區62家金融機構進駐，金融資產管理規模增12兆元、成長33% ETF規模達11.6兆元居亞太第三，TISA開戶28萬5,400人；金管會將續推專法與稅負優惠修法",
+      "time": "2026-11-03T11:13:24+08:00"
+    },
+    {
+      "title": "盤中速報 - 櫃買市場加權指數下跌-14.01點至355.23點，跌幅3.79%",
+      "link": "https://news.cnyes.com/news/id/6644798",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日11:11，櫃買市場加權指數下跌14.01點（或3.79%），暫報355.23點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-5.23%。其中 華星光(4979",
+      "time": "2026-11-03T11:12:41+08:00"
+    },
+    {
+      "title": "白銀跌離200日均線 出現2020年以來「最佳買入機會之一」",
+      "link": "https://news.cnyes.com/news/id/6637006",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "白銀較歷史高點重挫近六成，現價低於200日均線約29%，乖離創2020年3月以來最大 Tavi Costa稱白銀仍可能跌破50美元，但若拉長至12至24個月，現階段可能是周期最佳買進機會之一 美銀估今年白銀供給轉為過剩910公噸，惟2027年恐再現852公噸缺口，AI資料中心等需求成長成支撐",
+      "time": "2026-11-03T11:10:08+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 11:02:15 新聞中心 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGFRMTFvNjJFcHJBbF9Ib0VSbUZkaDZGSjg0a05CMXpCZ291eTl3OWVEWHhCUVBhR29mSWQwczJFSEVWbUFVMW4wb0dvRlQwNHJjN0RUeXo5UFhveEZFWi1RdXFyS1gydzVoMGEtdVMyNWlVZnpZek1GNk15UDZMZ0hqeHBHNDlJYjFXUHE3SXZBSW8?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 11:02:15 新聞中心 發佈 MoneyDJ",
+      "time": "2026-11-03T11:09:57+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 11:08:50 黃文章 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLXJFV0xsX04zcWZteWlfWF9sWDVvcWx3QWx4QU5vdWJreEhhNVFkTlNhQ3ZWamIxandGM2s0ck5uQmlrNnJNRzJZNEpXeDlwNnJfVXZMSVhRY2Y3UDIxXzdrM0prLVNDVWx0a3Q5NU1ZVDgwdzlLZDBCTk03LVg1Z1Q1cTJPWE83UTRGMHlOSlhlc3M?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 11:08:50 黃文章 發佈 MoneyDJ",
+      "time": "2026-11-03T11:09:02+08:00"
+    },
+    {
+      "title": "議題精選：蘋果FY26寫歷史佳績 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM2FKQnl5ZEd6Z2FRaEVRRFo4UGRkNEUxZnlzeXZrdElFenRaU0hreW1PT1E4bHdCaHJSUlhWM1d5a25lN1MzXzEtaEM5LXQtcmFyWXZFYmxnZ1ZNZFRFRU02QmExbEYwQktYS0tJZVBqSDdYVTRPUHFmdVJKMGRXUTNJWQ?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "議題精選：蘋果FY26寫歷史佳績 DIGITIMES",
+      "time": "2026-11-03T11:07:04+08:00"
+    },
+    {
+      "title": "115 年「期心期力 期貨商反詐治理評鑑活動」得獎名單揭 曉，反詐防詐教育宣導觸及逾 8 萬人次",
+      "link": "https://www.taifex.com.tw/file/taifex/CHINESE/11/attach/新聞稿(70).pdf",
+      "source": "期交所·新聞稿",
+      "category": "官方公告",
+      "summary": "115 年「期心期力 期貨商反詐治理評鑑活動」得獎名單揭 曉，反詐防詐教育宣導觸及逾 8 萬人次",
+      "time": "2026-11-03T11:06:14+08:00"
+    },
+    {
+      "title": "美國期中選舉登場！川普支持率僅32%逼近歷史低點 民主黨國會選情領先",
+      "link": "https://news.cnyes.com/news/id/6644697",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "路透社／益普索民調：川普支持率32%，民主黨46%領先共和黨38%，差距縮至8個百分點。 78%選民最重視生活成本，民主黨在解決生活成本上以43%優於共和黨32%。 截至10月31日已有創紀錄5,000萬人提前投票，選舉結果將影響國會控制權與川普施政空間。",
+      "time": "2026-11-03T11:00:07+08:00"
+    },
+    {
+      "title": "伊朗最大島嶼凌晨發生五次爆炸 美國官員：美軍襲擊格什姆島",
+      "link": "https://news.cnyes.com/news/id/6644769",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "美國官員表示，美軍2日對伊朗最大島嶼格什姆島發動襲擊。 美方官員表示，數周以來，美軍一直對伊朗發動小規模襲擊。 格什姆島3日凌晨連續發生五次爆炸。",
+      "time": "2026-11-03T10:55:50+08:00"
+    },
+    {
+      "title": "盤中速報 - 櫃買市場加權指數下跌-11.18點至358.06點，跌幅3.03%",
+      "link": "https://news.cnyes.com/news/id/6644785",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日10:53，櫃買市場加權指數下跌11.18點（或3.03%），暫報358.06點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-4.67%。其中 華星光(4979",
+      "time": "2026-11-03T10:53:37+08:00"
+    },
+    {
+      "title": "〈焦點股〉91APP*-KY遭駭恐多達近480萬人受害 股價續破底創低",
+      "link": "https://news.cnyes.com/news/id/6644767",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "91APP*-KY遭駭客入侵訂單資料庫，恐涉1329家品牌、479.8萬名消費者。 受影響為2025/4/4至2026/10/14成立線上訂單，可能外洩姓名、電話、地址、email與訂單紀錄。 數產署已實地檢查並確認攻擊阻斷，91APP將於11/2起通知受影響消費者，財務影響仍評估中。",
+      "time": "2026-11-03T10:52:40+08:00"
+    },
+    {
+      "title": "〈焦點股〉長榮航下半年獲利樂觀 逆勢抗跌飛出3個月來新高價",
+      "link": "https://news.cnyes.com/news/id/6644730",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "長榮航受惠客貨運暢旺，盤中股價漲逾2%，創8月上旬來高點。 法人指高油價支撐票價，而航空燃油成本回落，估長榮航獲利低點已落在第二季。 AI伺服器與半導體設備急單帶動空運到年底不弱，貨運成長可望延至明年上半年。",
+      "time": "2026-11-03T10:51:46+08:00"
+    },
+    {
+      "title": "邁威爾暴跌13%、Lumentum重挫19%！史上第二大科技併購引拋售",
+      "link": "https://news.cnyes.com/news/id/6644599",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "邁威爾斥資約1,150億美元全股票收購Lumentum，引發投資人反彈，兩家公司股價重挫。 換股溢價隨邁威爾股價下跌幾乎消失，交易恐拖到2028年上半年完成。 市場質疑整合效益與監管審查，雙方估每年可創造逾10億美元協同效益。",
+      "time": "2026-11-03T10:41:06+08:00"
+    },
+    {
+      "title": "中國央行調高外匯存準率至6%！在岸、離岸人民幣聞訊跳水 兌美元雙雙貶逾0.22%",
+      "link": "https://news.cnyes.com/news/id/6644768",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "中國央行11月15日起將金融機構外匯存款準備率由4%調高至6%，增強外匯流動性管理。 今(3)日人民幣雙雙走貶，在岸報6.6632、離岸報6.6617，均跌逾0.2%。 市場解讀此舉可收緊美元供給、減輕人民幣升值壓力，維持匯率合理均衡穩定。",
+      "time": "2026-11-03T10:40:33+08:00"
+    },
+    {
+      "title": "盤中速報 - 櫃買市場加權指數下跌-8.06點至361.18點，跌幅2.18%",
+      "link": "https://news.cnyes.com/news/id/6644774",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "截至台北時間03日10:39，櫃買市場加權指數下跌8.06點（或2.18%），暫報361.18點。歷史漲跌幅近 1 週：-3.26%近 1 月：-13.51%近 3 月：+6.15%近 6 月：-3.99%今年以來：+33.67%焦點個股CPO封裝概念領跌-3.60%。其中 華星光(4979-",
+      "time": "2026-11-03T10:39:28+08:00"
+    },
+    {
+      "title": "Anthropic 3Q26營收達170億美元 算力支出激增單季由盈轉虧 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KclYwN015Q185cDJNZi1BM2IyY0g1NUllR1pRTEdNOXZXY29yVjN0cEdXV1RjRXNrS3k5a0xuellHUndtSW9RbmZQdjVjTVRMTkRiYVUxMWFNUlk1eVk5YTViNHd6YXczVnNj?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "Anthropic 3Q26營收達170億美元 算力支出激增單季由盈轉虧 DIGITIMES",
+      "time": "2026-11-03T10:31:00+08:00"
+    },
+    {
+      "title": "華許是鷹是鴿或非重點？Fed暫停升息背後 「長債殖利率」成關鍵",
+      "link": "https://news.cnyes.com/news/id/6638590",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "Fed 10/28維持利率3.75%～4.00%，10票贊成、2票反對，官員對緊縮步調仍有分歧 PIMCO與丹斯克銀行估Fed在等金融條件收緊發酵，12月仍可能再升息1碼 布魯克斯指華許變化或為穩定長債殖利率；CBO估利率若高150基點，赤字增6兆美元",
+      "time": "2026-11-03T10:30:04+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 10:25:55 蕭燕翔 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFdiUC00WEk2em5ab0oydzE5dVVtaUpBeEdRMXhwSHFSMWRXUUwtZGtpWFF3bldneHFZR3BxR2pJS2d0UHZlYk1URGZiNXFENS0xdTd4RkVlY3ZZaDdSZXJpemRKQlY3T0JwQ3JudzRUa0JxaUtxZ3N6ZVJ1RkxQVExPbnRTeS1lN29SUUZkRkZCclE?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 10:25:55 蕭燕翔 發佈 MoneyDJ",
+      "time": "2026-11-03T10:26:08+08:00"
+    },
+    {
+      "title": "烏克蘭警報App遭駭客攻擊 收到核威脅假消息",
+      "link": "https://news.cnyes.com/news/id/6644600",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "烏克蘭稱警報系統遭入侵，警報App推送了毫無依據的輻射威脅警報。 烏克蘭空襲警報App發布的一條假消息顯示，俄羅斯「榛樹」高超音速飛彈已部署。 烏方懷疑空襲警報系統遭入侵。",
+      "time": "2026-11-03T10:20:41+08:00"
+    },
+    {
+      "title": "〈台股開盤〉電子權值股領跌一度挫逾700點 傳產、資安股逆勢撐盤",
+      "link": "https://news.cnyes.com/news/id/6643728",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "台股今(3)日受美國期中選舉前觀望與美股震盪影響，開盤一度重挫768點。 台積電一度跌35元失守2,300元，聯發科、日月光投控、台達電、鴻海走弱；玻陶與資安股逆勢強彈。 法人稱選後美股偏多勝率高，但利率、通膨、AI與台幣貶值壓力仍在，台股反攻難度高，建議留意資安、低軌、機器人、PCB、航運。",
+      "time": "2026-11-03T10:15:45+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 10:06:15 黃文章 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVy1kc1U5YW1RRTdxZE9QNXA0UkNmd2syRkF0dmNSeVFZckhBNlZJb2FWa210VW1zQmVGRUZHZVVIeVB3NGhnTVNpNXQ4UDVhS0tpdE16NmZvTnBXbnptX28teFMteVplYjF6YjFCaUMxSUVLdG1ObUwtVmg4bU04U3FpZ01wbWd1ekIxdXZTVGVxMG8?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 10:06:15 黃文章 發佈 MoneyDJ",
+      "time": "2026-11-03T10:15:26+08:00"
+    },
+    {
+      "title": "研究報告內容-{4AD1E4FA-F309-43E2-967A-BF691B972216}-金融 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVEl0dnlNVlRLOUhMeWh1S2FiRWhEUncwbkxIa1hmOFU3QjU3R3hWdUpOYVRjREZTQlphdVMzbTZjNFpvUEt5a3ZSTG0wT1FFOFI3RzJzNkhyNG1UejBHQ3R4QkNub3QybENvQ1pVY2RMWUUwMkVLeGdfRjV0YzZENGlwWDRPQm1lczNsX0pxclNUbmZVRHl6Ng?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "研究報告內容-{4AD1E4FA-F309-43E2-967A-BF691B972216}-金融 MoneyDJ",
+      "time": "2026-11-03T10:15:00+08:00"
+    },
+    {
+      "title": "從科技股轉向必需消費股：華爾街10月出現網路泡沫破裂以來最大類股輪動",
+      "link": "https://news.cnyes.com/news/id/6644671",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "10月資金轉向消費必需類股，XLP漲10.9%、XLK跌8.3%，兩者比率單月升21%，為2001年2月以來最大輪動 沃爾瑪領漲必需消費；科技股多走弱，英特爾跌45.3%，SanDisk、MRVL也重挫 Visser稱是避險基金去槓桿；美銀指標仍在57.2%、距賣出訊號0.3個百分點，顯示市場太樂觀",
+      "time": "2026-11-03T10:00:03+08:00"
+    },
+    {
+      "title": "醫揚攜手柏瑞醫打造高雄市立小港醫院醫療AI應用 助攻醫療影像AI落地",
+      "link": "https://news.cnyes.com/news/id/6642200",
+      "source": "鉅亨網·台股",
+      "category": "媒體新聞",
+      "summary": "醫揚攜手柏瑞醫，在高雄市立小港醫院完成醫療AI邊緣運算平台與可攜式X光設備整合並公開發表。 整合串聯NVIDIA Jetson Thor、ACCEL-JS1500與HSB，支援高解析醫療影像與骨質疏鬆、肌少症AI分析。 高雄市立小港醫院表示有助精準醫療與在地照護；醫揚將續推邊緣AI應用驗證。",
+      "time": "2026-11-03T09:57:40+08:00"
+    },
+    {
+      "title": "那指100今年第三度陷修正槓桿ETF散戶慘- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRm5FV01Ka3YxQ3hUVkVHTThjdlhOcTlDanI0bDJNajRCQTBFSkJ1LXFpS29mejI0VkdzNnI3LWVTN2ZBNnV0YTYyNzdfQjcxcTlhckw5MVZvRnJGZHhEOGw3QlFBS1pvVnZDNVg0Y0xzN29SNl9rMXozakpmU1FTVXdRQ0tlbkRFdE03SklUcjFTdw?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "那指100今年第三度陷修正槓桿ETF散戶慘- 新聞 MoneyDJ",
+      "time": "2026-11-03T09:52:00+08:00"
+    },
+    {
+      "title": "美國期中選舉3日投票 澤倫斯基：俄羅斯準備發動大規模襲擊",
+      "link": "https://news.cnyes.com/news/id/6644715",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "據《路透社》報導，烏克蘭總統澤倫斯基2日（周一）指控俄羅斯企圖利用美國國會期中選舉，當全世界的注意力在別處時，對烏克蘭發動襲擊。 澤倫斯基在社交平台上發帖，稱俄羅斯計劃在美國期中選舉期間發動大規模襲擊，「我方掌握的情報顯示，俄羅斯準備對我國發動新一輪大規模襲擊，主要目標是能源和物流設施。」 澤倫",
+      "time": "2026-11-03T09:51:28+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 09:14:21 黃文章 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWWYzamJRNFFzczI0ekdReXp0RENuTDBOd2JWbUs2c0lpeEVzREgxZ3psWkpqbk1wVFllWUdPOWVjQ0U1Z2xVRURaZ1RDdUU2SF83VGRvRjRmZWdDLTRoaUI1WDBxdmtfVFpjMnRrVmV1YktwMG1GLUY0RHNLZUZCVmpZbzU4S1llR1RkNTgyckdOeWs?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 09:14:21 黃文章 發佈 MoneyDJ",
+      "time": "2026-11-03T09:45:21+08:00"
+    },
+    {
+      "title": "十銓看好推論需求增，拓企業工控市場- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa0pfckpOZVNiOHgtZFkzQ1pVcVVxSnU3NDVxSTNYcHA2eVR5RnliNDQyd202UFVCQkEzb3pwTlRBVmgyX2F5U1dJaWdiSzZnWENMQTV3S0xaMTJKdV9nTU9SMHlGbHZTNGdCLXhONTdOZHpYOVIxZDFvalQ0TEdJRm16cWFqMjBEWGhiNUNYRnJvdw?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "十銓看好推論需求增，拓企業工控市場- 新聞 MoneyDJ",
+      "time": "2026-11-03T09:36:00+08:00"
+    },
+    {
+      "title": "野村亞洲傘型基金登場！00420A、009833搶攻AI供應鏈，亞洲科技還藏哪些機會？",
+      "link": "https://news.cnyes.com/news/id/6644709",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "AI基建投資延燒，市場目光轉向台灣先進製程、散熱，韓國HBM與日本設備材料供應鏈 野村亞洲傘型基金11/3至11/6募集，含00420A與009833，皆採半年配息 00420A主動選亞洲科技股；009833追蹤韓國科技30指數，布局記憶體等領域",
+      "time": "2026-11-03T09:29:15+08:00"
+    },
+    {
+      "title": "蘋果承認iPhone Duo摺疊機交貨延遲 何時緩解難以預測",
+      "link": "https://news.cnyes.com/news/id/6644636",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "蘋果承認iPhone Duo交貨延遲，何時緩解仍無法確定。 沒有前往蘋果零售店排隊搶購、也沒有第一時間預訂的消費者，發現 iPhone Duo 要等到明年才能發貨。 美國電信公司Verizon向受交貨延遲影響的客戶贈送禮品卡，以表歉意。",
+      "time": "2026-11-03T09:28:41+08:00"
+    },
+    {
+      "title": "00419A募集登場！施羅德AI科技台股主動式ETF，如何從熱門題材找出下一波贏家？",
+      "link": "https://news.cnyes.com/news/id/6644706",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "AI熱潮擴散至伺服器、電源、散熱與機器人，台股AI選股難度升高。 施羅德AI科技台股主動式ETF 00419A將於2026/11/2至6募集，聚焦AI半導體、基礎建設與新應用。 基金採ACE選股流程並結合跨國研究，模擬持股含台積電、聯發科、台達電，實際持股依操作調整。",
+      "time": "2026-11-03T09:26:30+08:00"
+    },
+    {
+      "title": "公告本公司布蘭特原油期貨2026年12月契約最後結算價",
+      "link": "https://www.taifex.com.tw/cht/5/goldFSP?commodityIds=31&start_year=2025&start_month=12&end_year=2026&end_month=12",
+      "source": "期交所·公告",
+      "category": "官方公告",
+      "summary": "公告本公司布蘭特原油期貨2026年12月契約最後結算價",
+      "time": "2026-11-03T09:21:49+08:00"
+    },
+    {
+      "title": "馬斯克SpaceX算力計畫恐吃下輝達3000億美元成長額 單一客戶需求引發市場疑問",
+      "link": "https://news.cnyes.com/news/id/6644684",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "SpaceX計畫明年底前新增約10GW AI算力，全面採用輝達硬體，單一客戶需求恐超越輝達整體營收成長預期。 StreetSignal估算，SpaceX新增支出約3250億美元，高於輝達預估營收增長2920億美元。 輝達供應受限，SpaceX擴張恐排擠其他客戶GPU需求，但估算仍有誤差可能。",
+      "time": "2026-11-03T09:20:04+08:00"
+    },
+    {
+      "title": "冷凍櫃一夜變「加熱櫃」！歐洲多國超市疑遭新一輪駭客攻擊",
+      "link": "https://news.cnyes.com/news/id/6644587",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "歐洲多國原本用於保鮮和冷凍食品的設備，一夜之間溫度驟升，導致部分門市大量食品報廢。 此輪異常已波及瑞典、比利時、盧森堡、芬蘭、愛爾蘭和愛沙尼亞。 涉及德爾海茲、家樂福以及瑞典ICA、Coop等多家連鎖超市。",
+      "time": "2026-11-03T09:06:43+08:00"
+    },
+    {
+      "title": "iQuote-MoneyDJ理財網 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLWh4UTdjTkQwTlo3RzdjYVdIYTljZDRfbEh4R2xqQTAwYldLUmN0ZEtyS1RrN3Y3eUFPNzl1cjJ0bFBKbGtsMGtjaVJsRllDRkhYekJYN2prSXdTcW1VS282Z245TmZadWEtYm5ENUhSRmg4ZFd6NEhnVjg1UFg0Y2YtOA?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "iQuote-MoneyDJ理財網 MoneyDJ",
+      "time": "2026-11-03T09:03:09+08:00"
+    },
+    {
+      "title": "拿下菲國17萬台訂單！MacBook Neo靠低價打開新興市場大門 成為蘋果教育市場新王牌",
+      "link": "https://news.cnyes.com/news/id/6644643",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "蘋果在2026財年第四財季披露，菲律賓教師與學生已購買17萬台MacBook Neo，為其歷來最大教育採購之一。 MacBook Neo教育價由499美元調至649美元，仍是最便宜MacBook。 蘋果稱教育訂單可帶動更多用戶進入生態系；分析指其以低價機切入新興市場與Chromebook換機需求。",
+      "time": "2026-11-03T08:55:46+08:00"
+    },
+    {
+      "title": "全靠AI資料中心！汽車建築業需求低迷＋智利下修產量 一旦資本支出放緩銅價會崩嗎？",
+      "link": "https://news.cnyes.com/news/id/6644644",
+      "source": "鉅亨網·頭條",
+      "category": "媒體新聞",
+      "summary": "智利Cochilco大幅下修今、明年銅產量，2025年估降8.4%至494萬噸，2027年僅回升至508萬噸 供給復原不及預期推升銅價展望，今年均價上調至每磅6.18美元，2027年上調至5.95美元 庫存錯配加劇現貨緊張，LME升水210美元；BMO稱建築、汽車低迷，AI資料中心成需求亮點",
+      "time": "2026-11-03T08:40:10+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 08:08:28 陳怡潔 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdUxTd21jUmwyYWpkbHJNLTZ5NS1XQTl0M0xWZHpzOTdrNnBvRWJrWU01VDdJbm1WcHVoVmZQMk94eWhVOHpra0Jncm4xQVFKS1o4Q0gzLW52RExQcHR1RzB5ZWtxQ3NDTS1vY1ZORTlaMXdINHhGVG9aMEZjTU1JZS12YzJKZENGOXpvckRXVzlfNVE?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 08:08:28 陳怡潔 發佈 MoneyDJ",
+      "time": "2026-11-03T08:08:42+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 08:01:04 黃文章 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR2xLY1BJa0hlQy15bGwzeEQ0UUF6NE55UnhSOUc2aGk2RldyNEJRaUNwM0w0U2tjX3BXTUhUVEl2dDJZVDBabDk4TFRocHBzdUVnMFNKMldNTklKTmNFWVF3cGNfVG9xYTMyWXJmM1JrVnNZWGNxanJBM3ZmbTZpT3FVdERWMUhucU0xSTZXSXNmRXc?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 08:01:04 黃文章 發佈 MoneyDJ",
+      "time": "2026-11-03T08:01:22+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 07:08:34 李彥瑾 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGRvaWtWdzNBUHB1ZDRhc19TQUtSYzg5VG00bFg5eGRKV1dETTRXRE9GNXZVR29HNVltaWZBOVVoM05NUXlVNHA2NG9RQXhkLXlYSWtYOWdfU2hwUHpwQW1kVEhUdnZTQ2RnaVdlZFMwM1BZVG5VbjVVQXhWTF9TRjRmbHhzd1RBZFl3S3ZubFFCOUE?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 07:08:34 李彥瑾 發佈 MoneyDJ",
+      "time": "2026-11-03T07:11:53+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 06:15:25 黃文章 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLVg0bllfc1lxeDVJNnVPWUdOTFlRVnJTdTROeERqLWxyOEJUQmotdDFHM1BDUnBuVkZZYmxEVjR3NmxIVkw1dTdoaHBPTEJONC1KRHNDb1ZIa0doNHlOQVltQ1VRMFhkcU9ucHd3TU9JSXlVZHFmeDluUEEwZGRVSS1zY0RLdXV1UU5UTzVpWGd5ZEU?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 06:15:25 黃文章 發佈 MoneyDJ",
+      "time": "2026-11-03T07:10:30+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 06:15:31 黃文章 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRVZleU1wTnZGeGwwQXZtNFd6ZU1nYWFjLXMyRDY0aWVMbFIxTUNqdzgzWWZlOWJWaS1ZWk5OWk1Mb2liSXBZZFpiYllfNlc0dUVuQldFWDlhNC1SQ3hjeVlmT0hiYTRaWmxFNjA2Q1k0TWo5d3JpekhKc3h2NlQzamRzMy1wU3pyRmtMdEM2RDlEOEU?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 06:15:31 黃文章 發佈 MoneyDJ",
+      "time": "2026-11-03T07:10:15+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 07:00:45 黃文章 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdVZHNV9jOThrZGVXejNHZjZmSVItWTJUejZXMk9uSHVYMTl6bktNSFJpX25YT2o2ckVVc2VwZjZoQjhQX3piX09UM3pYT1JjSlZRVURFMXBJeWtITU9udDlydTNrYXlHZlRYTDEyTG44OGxTd0hKdDlxLV9QcEhxREd1TzM2ZGxpYUEzZmJRT200N28?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 07:00:45 黃文章 發佈 MoneyDJ",
+      "time": "2026-11-03T07:09:43+08:00"
+    },
+    {
+      "title": "MoneyDJ新聞 2026-11-03 07:05:51 蔡承啟 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVC0weTVrZ21zWk5KaXJtYXVRVUlVTVRPVTF4MXdXdXZVUWxLaFlhWDhncnNRVjk2N3Rwb1hGdHp3S0RBS1JBelNJaE15Tk9zUXRfWERTU1I3akdCaGlQeFJrN2d3bGxyLW45ME1vSUlPTHo3VTgyMFFNU2ZNZzRZSHNjNlBlQQ?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "MoneyDJ新聞 2026-11-03 07:05:51 蔡承啟 發佈 MoneyDJ",
+      "time": "2026-11-03T07:05:51+08:00"
+    },
+    {
+      "title": "《農產品》油價下跌拖累 CBOT黃豆下跌1.4%-台股 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLVdldVQta2pYVlBFeTFJZlNRc2M1N1RNenM1ZXZOMEJLSXdCQ0tFcTJLdF9aZ0k5OHRPeW9TVHY0UzBEWk5ZaWtRZThEdS13STd0VjdoR2tNNm8xbmsyRUJoM1VqX3IzeEVpNkRSMndSVUlpRVVlQm5VNk96RmdTN0Fzb21WVm9OdFE?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "《農產品》油價下跌拖累 CBOT黃豆下跌1.4%-台股 MoneyDJ",
+      "time": "2026-11-03T06:15:40+08:00"
+    },
+    {
+      "title": "日本股市今日因「文化日」休市一天- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSUdnaHU3Y1dQa1RCTUZqTEtrWV9SNHhIdEo5T0NkQ0ZfRnNtX29ZRDEtdjlrZk11b1FDZGIyNGV1cGJEdVVoZXFKVDJ0ay0xSkk5NkhQVmRSZWRjWVdSeHZyeHJSQXdaOF9nN3BhRDdXY0NDODZpZjI0bGpXVC1CUWQ5MkVycHBxd21heC1XV2JMUQ?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "日本股市今日因「文化日」休市一天- 新聞 MoneyDJ",
+      "time": "2026-11-03T05:43:00+08:00"
+    },
+    {
+      "title": "DIGITIMES Today：三星首款AI眼鏡傳開賣 | 鴻海電動車出海新解 | 10月機車掛牌月減逾14% - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbmV4a1VWTVRNY3l3NElhci1vb0NWaHE0VmxHNUZDTEJkaGc0cktKOTZKem1JeDBvOFNBYmF6NUNzWEt5enRxZ2FKTGZvZzRmZmJ5bXAwaTgyNXBKUEpKWmpQcDdlZ3F5clYzM1RKcllTdUV4WUxnNWVuN3Z4Q2hPVnd5aTY5eEJFRDRPd2p3?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "DIGITIMES Today：三星首款AI眼鏡傳開賣 | 鴻海電動車出海新解 | 10月機車掛牌月減逾14% DIGITIMES",
+      "time": "2026-11-03T05:00:00+08:00"
+    },
+    {
+      "title": "鴻海憑兩大核心實力突圍 加工力與垂直整合助攻AI布局 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTm9uN2NwUDhHSjVsTVZfR21Uc2V6M2dPa05MaURXcTlzY3cyUURLTXFacUZyWnhtQkRGelE2a0NVaENWNmtDcHJaWU1aNzZIeThseEpZa0R1OU1IM2thdWhrWTRfQlpKZHVRUkp5NWNOaElVOTdtQU93M0E5TktrYmszaUVuNV92NlJhU2JB?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "鴻海憑兩大核心實力突圍 加工力與垂直整合助攻AI布局 DIGITIMES",
+      "time": "2026-11-03T02:56:00+08:00"
+    },
+    {
+      "title": "台積電設廠重塑鳳凰城 供應鏈與地方開發搶搭產業聚落列車 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORDZ2RENmRGtvWWFLeEw0Y0hZcTdwbDlrSXFKRG9EeVF2bWpsejA2VGl0UGprZHcybGNxUVl2N0hGMmpfcTJhZnRONE9aOVp4bjg3V3RoVzU3RnZWVVdEUTNwZGlhRGNwMzNHNVQ2a0RNOXp6VER3VGhhaUtSVVZxdlc4c2lJcWFSZG5WZG5B?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "台積電設廠重塑鳳凰城 供應鏈與地方開發搶搭產業聚落列車 DIGITIMES",
+      "time": "2026-11-03T02:55:00+08:00"
+    },
+    {
+      "title": "馬來西亞擬定資料中心新規 再生能源使用至少30% - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOFl6UFRQeDdYUXZEUnBRM0k5aFFrdGRWTlVVS00xRGgwaXNfWW44eUNnTlRqUW9zSm5jRGJ0STk2X0NZODd0ejdxTEcxQTNNS08zazJoVm5hcjdORWw4Z2o5MUgzY2VvRHkxT21lcTFwV1hSamxudEJGenhiQ25nWlcwWXpObU1xa3ptOG1R?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "馬來西亞擬定資料中心新規 再生能源使用至少30% DIGITIMES",
+      "time": "2026-11-03T02:23:00+08:00"
+    },
+    {
+      "title": "Dixon跨足高階製造 布局矽光子與先進封裝 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSGpDRmlqU2JjdHdLZzZydDVPNFJzaGdyVUdEM1VMdVVCRllPUkFpc003VEx2THhKd2M0V2NPZDZRYjM2NE5EWVZOamZKSW5IWEpDM2JmNUJRUjhGQlllX2xMaUF2bTBTRy1SRXd6ZnA1NXE2ZnU4V0NDb3d1ZHBwSW0yNHpZdFpQaFFrc25R?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "Dixon跨足高階製造 布局矽光子與先進封裝 DIGITIMES",
+      "time": "2026-11-03T02:07:00+08:00"
+    },
+    {
+      "title": "美伊戰爭擴大上下游價差 台灣石化業陷「增值不增量」困局 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvMHFFQmw2RkJ3bFh6ZkIwN1p0VDEycjItS0l0aEI1NHQtYjc0NUtMZ2VGU3VLNnBoLVVLWExQbHAtVW1KckZhT3JsaGZYYkZmMmFWM2V0bDBEWVRyM1dDLVZFLXJvR3NSZDduekk4TQ?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "美伊戰爭擴大上下游價差 台灣石化業陷「增值不增量」困局 DIGITIMES",
+      "time": "2026-11-03T00:42:52+08:00"
+    },
+    {
+      "title": "宏于布局AI電力商機 越南新廠量產在即、北美據點同步推進 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uR3l5dHNybzJ5cG9TdjlwOExLYnN4VkN2bExLUWtNX0gwMUVWeWM5QkdhTC1SaDQ2Rl8wWlFUOXZZRTBKRzB5X1U5Q1N2aUhvZVEtR0hEQ1dqMWlWWFM2aExrVzVBX0ZEdzIzcEZ1WQ?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "宏于布局AI電力商機 越南新廠量產在即、北美據點同步推進 DIGITIMES",
+      "time": "2026-11-03T00:42:51+08:00"
+    },
+    {
+      "title": "後量子後AI時代的網路安全 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpcjd2TzFuZGc1VVFpS3dRMHA3N1dzZ28zWnJ1QXdDeFBMT0xRVjBKOXhHZXpFMDhtNVFGSkFsMVNSTGQ5Q1Q1OUJxZmxLVlRaZHBYWThUc0ptMWhmM2pGMWhncw?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "後量子後AI時代的網路安全 DIGITIMES",
+      "time": "2026-11-03T00:14:26+08:00"
+    },
+    {
+      "title": "產銷調查：美系雲端Arm架構新機發力 4Q26全球伺服器將季增5.5% - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUU1VLVhUbzhweWJCXzVpdnNLckh1X0Z6Q2t0VmZiTXktWlc4ZHRqM2lUYUtaZHh5bUlrUXVWeWdjcUdPT3N5c2dCUllhUHpLSUZHMEpEZy1DX2FOYTFzMXpnWTNIU2tzQzBjSndlMTV5S0FIdklEWnZjZkd4YzVVQUhmWDhRWmRSbEFYbDZR?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "產銷調查：美系雲端Arm架構新機發力 4Q26全球伺服器將季增5.5% DIGITIMES",
+      "time": "2026-11-02T19:11:32+08:00"
+    },
+    {
+      "title": "報價續揚，晶豪科看Q4毛利率有撐- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbEpNTUt6QmtVSzRCdGx3LXNfZHBtOXZxTTZOMUttS0FHRnRuY1JpUXZ4dEl4RXpLTXhoeXhiVUxWUDlvQTJzT2c1alVKU1lxWjRRU3AtaGxpMnRsRHhzeWRnMlF2Q0lReE1lSXFlTzVtUy1KbWItTlpaVDM0UkxiZ09CZC16TmxNeHdfeVZLWmdWdw?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "報價續揚，晶豪科看Q4毛利率有撐- 新聞 MoneyDJ",
+      "time": "2026-11-02T17:38:00+08:00"
+    },
+    {
+      "title": "臺灣期貨交易所於115年11月3日調高碩禾期貨(NGF)保證金為現行所屬級距適用比例之1.5倍，精材期貨(QLF)保證金為現行所屬級距適用比例之2倍。",
+      "link": "https://www.taifex.com.tw/file/taifex/CHINESE/11/attach/1150302382_附件3-新聞稿_處置股票.pdf",
+      "source": "期交所·新聞稿",
+      "category": "官方公告",
+      "summary": "臺灣期貨交易所於115年11月3日調高碩禾期貨(NGF)保證金為現行所屬級距適用比例之1.5倍，精材期貨(QLF)保證金為現行所屬級距適用比例之2倍。",
+      "time": "2026-11-02T16:11:54+08:00"
+    },
+    {
+      "title": "公告調整本公司碩禾期貨(NGF)及精材期貨(QLF)保證金適用 比例，請查照。",
+      "link": "https://www.taifex.com.tw/cht/11/newsDetail?newsType=1&idx=17459",
+      "source": "期交所·公告",
+      "category": "官方公告",
+      "summary": "公告調整本公司碩禾期貨(NGF)及精材期貨(QLF)保證金適用 比例，請查照。",
+      "time": "2026-11-02T16:07:14+08:00"
+    },
+    {
+      "title": "4960 誠美材｜公告本公司董事會通過115年第三季合併財務報告",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.提報董事會或經董事會決議日期:115/11/02 2.審計委員會通過日期:115/11/02 3.財務報告或年度自結財務資訊報導期間 起訖日期(XXX/XX/XX~XXX/XX/XX):115/01/01~115/09/30 4.1月1日累計至本期止營業收入(仟元):5,731,623 5.1月1日累計至本期止營業",
+      "time": "2026-11-02T15:24:32+08:00"
+    },
+    {
+      "title": "3029 零壹｜公告本公司115年第3季合併財務報告業經董事會決議通過",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.提報董事會或經董事會決議日期:115/11/02 2.審計委員會通過日期:115/11/02 3.財務報告或年度自結財務資訊報導期間 起訖日期(XXX/XX/XX~XXX/XX/XX):115/01/01~115/09/30 4.1月1日累計至本期止營業收入(仟元):23,620,558 5.1月1日累計至本期止營",
+      "time": "2026-11-02T15:11:14+08:00"
+    },
+    {
+      "title": "115年10月份法規異動彙整",
+      "link": "https://www.taifex.com.tw/file/taifex/CHINESE/11/attach/法規異動彙整11510.pdf",
+      "source": "期交所·公告",
+      "category": "官方公告",
+      "summary": "115年10月份法規異動彙整",
+      "time": "2026-11-02T15:10:25+08:00"
+    },
+    {
+      "title": "1538 正峰｜公告本公司法人代表人董事辭任",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.發生變動日期:115/11/02 2.法人名稱:百仕富投資股份有限公司 3.舊任者姓名:陳永倫 4.舊任者簡歷:台誠能源科技股份有限公司/董事長 5.新任者姓名:不適用 6.新任者簡歷:不適用 7.異動原因:辭任 8.原任期（例xx/xx/xx至xx/xx/xx）:113/06/28至116/06/27 9.新任生",
+      "time": "2026-11-02T15:08:53+08:00"
+    },
+    {
+      "title": "6658 聯策｜公告本公司發行國內第一次無擔保轉換公司債完成訂價",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.事實發生日:115/11/02 2.公司名稱:聯策科技股份有限公司 3.與公司關係(請輸入本公司或子公司):本公司 4.相互持股比例:不適用 5.發生緣由:依據本公司「國內第一次無擔保轉換公司債發行及轉換辦法」訂定轉換價 格。 6.因應措施: (1)本公司發行國內第一次無擔保轉換公司債業經115年10月12日金融監",
+      "time": "2026-11-02T15:02:37+08:00"
+    },
+    {
+      "title": "3533 嘉澤｜本公司受邀參加大和國泰證券舉辦之線上法說會",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "符合條款第四條第XX款：12 事實發生日：115/11/13 1.召開法人說明會之日期：115/11/13 2.召開法人說明會之時間：16 時 00 分 3.召開法人說明會之地點：線上法說會 4.法人說明會擇要訊息：本公司受邀參加大和國泰證券股份有限公司舉辦之線上法說會，說明本公司之營運概況、財務及業務相關訊息 5.其",
+      "time": "2026-11-02T14:56:13+08:00"
+    },
+    {
+      "title": "2233 宇隆｜代子公司浙江宇鑽精密元件有限公司公告股東會 決議通過盈餘分配案",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.董事會決議日期:115/11/02 2.發放股利種類及金額:現金股利人民幣27,665,957.56元。 3.其他應敘明事項:以上股利將依本公司投資架構匯回。",
+      "time": "2026-11-02T14:55:34+08:00"
+    },
+    {
+      "title": "5434 崇越｜115年現金增資認股基準日及相關事宜",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.董事會決議或公司決定增資基準日期:115/11/02 2.是否採總括申報發行新股(是，請併敘明預定發行期間/否):否 3.主管機關申報生效日期:115/10/30 4.董事會決議(追補)發行日期:115/09/21 5.發行總金額及股數:總金額:按面額計新台幣25,000仟元。 股數:普通股2,500仟股。 6.採",
+      "time": "2026-11-02T14:51:40+08:00"
+    },
+    {
+      "title": "3518 柏騰｜公告本公司及子公司達公開發行公司資金貸與及背書保證 處理準則第二十二條第一項第二款",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.事實發生日:115/11/02 2.接受資金貸與之: (1)公司名稱:晶成材料股份有限公司 (2)與資金貸與他人公司之關係: 本公司直接出資或透過持有表決權股份百分之百公司間 (3)資金貸與之限額(仟元):884,667 (4)原資金貸與之餘額(仟元):407,990 (5)本次新增資金貸與之金額(仟元):16,2",
+      "time": "2026-11-02T14:43:58+08:00"
+    },
+    {
+      "title": "期交所擴大店頭集中結算會員風險預警監控功能，協助會員動態掌握帳戶風險，完善風控機制",
+      "link": "https://www.taifex.com.tw/file/taifex/CHINESE/11/attach/店頭集中結算會員風險預警監控功能新聞稿.pdf",
+      "source": "期交所·新聞稿",
+      "category": "官方公告",
+      "summary": "期交所擴大店頭集中結算會員風險預警監控功能，協助會員動態掌握帳戶風險，完善風控機制",
+      "time": "2026-11-02T14:43:57+08:00"
+    },
+    {
+      "title": "6756 威鋒電子｜公告本公司受邀參加凱基證券舉辦之線上法人說明會",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "符合條款第四條第XX款：12 事實發生日：115/11/04 1.召開法人說明會之日期：115/11/04 2.召開法人說明會之時間：14 時 30 分 3.召開法人說明會之地點：線上法說會 4.法人說明會擇要訊息：本公司受邀參加凱基證券舉辦之線上法人說明會，就本公司已公開發佈之訊息作說明。 5.其他應敘明事項：無 完",
+      "time": "2026-11-02T14:30:56+08:00"
+    },
+    {
+      "title": "3711 日月光投控｜代子公司Asteelflash USA Corp.公告董事會決議讓與租賃合約",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1. 原公告日期： 112/12/29 2. 簡述原公告申報內容： 子公司Asteelflash USA Corp.公告董事會決議向非關係人PSB NORTHERN CALIFORNIA INDUSTRIAL PORTFOLIO LLC取得不動產使用權資產 3. 變動緣由及主要內容： 基於集團經營策略調整，USI As",
+      "time": "2026-11-02T14:21:04+08:00"
+    },
+    {
+      "title": "2356 英業達｜(補充115/06/30公告)公告本公司董事會決議通過，擬自地委建廠房",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.契約種類:自地委建工程 2.事實發生日:115/6/30~115/11/2 3.董事會通過日期: 民國115年6月30日 4.其他核決日期: 不適用 5.契約相對人及其與公司之關係: 金展空調股份有限公司、中麟營造股份有限公司等(非關係人) 6.契約主要內容（含契約總金額、預計參與投入之金額及契約起迄日期） 、限制",
+      "time": "2026-11-02T14:17:03+08:00"
+    },
+    {
+      "title": "2327 國巨*｜公告本公司資訊安全長異動",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.人員變動別（請輸入發言人、代理發言人、重要營運主管(如:執行長、營運長、 行銷長及策略長等)、財務主管、會計主管、公司治理主管、資訊安全長、研發主管、 內部稽核主管或訴訟及非訟代理人）:資訊安全長 2.發生變動日期:115/11/02 3.舊任者姓名、級職及簡歷: 楊永承，為本公司資訊長。 4.新任者姓名、級職及簡",
+      "time": "2026-11-02T14:11:52+08:00"
+    },
+    {
+      "title": "2327 國巨*｜本公司受邀參加由Nomura舉辦之投資人說明會",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "符合條款第四條第XX款：12 事實發生日：115/11/04 1.召開法人說明會之日期：115/11/04 ~ 115/11/05 2.召開法人說明會之時間：09 時 00 分 3.召開法人說明會之地點：線上電話會議 4.法人說明會擇要訊息：本公司受邀參加由Nomura舉辦之投資人線上電話會議 就公司營運及產業概況向投",
+      "time": "2026-11-02T14:11:17+08:00"
+    },
+    {
+      "title": "6235 華孚｜新聞稿-華孚115年10月自結合併營收為新台幣4.96億元",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.事實發生日:115/11/02 2.公司名稱:華孚科技股份有限公司 3.與公司關係(請輸入本公司或子公司):本公司 4.相互持股比例:不適用 5.發生緣由: 華孚科技股份有限公司(股票代碼：6235)今日(115/11/2)公佈115年10月份自結合併 營收為新台幣4.96億元，較9月份的5.30億元減少6.40%",
+      "time": "2026-11-02T14:07:11+08:00"
+    },
+    {
+      "title": "2301 光寶科｜公告本公司庫藏股註銷完成變更登記事宜",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.主管機關核准減資日期:115/10/28 2.辦理資本變更登記完成日期:115/10/28 3.對財務報告之影響（含實收資本額與流通在外股數之差異與對每股淨值之影響）: (1)庫藏股註銷減資前：本公司實收資本額為新台幣23,161,077,630元，流通在外股數為 2,269,103,542股，每股淨值為新台幣42",
+      "time": "2026-11-02T14:06:02+08:00"
+    },
+    {
+      "title": "3711 日月光投控｜代子公司USI Asteelflash USA Corp.公告擬取得不動產使用權資產",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.標的物之名稱及性質（如坐落台中市北區ＸＸ段ＸＸ小段土地）: 美國加州廠房，坐落於1940 Milmont Drive, Milpitas, California 2.事實發生日:115/11/2~115/11/2 3.董事會通過日期: 民國115年11月2日 4.其他核決日期: 不適用 5.交易單位數量（如ＸＸ平方",
+      "time": "2026-11-02T13:52:34+08:00"
+    },
+    {
+      "title": "2328 廣宇｜本公司受邀參加群益金鼎證券所舉辦之法人說明會，說明本公司營運概況。",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "符合條款第四條第XX款：12 事實發生日：115/11/19 1.召開法人說明會之日期：115/11/19 2.召開法人說明會之時間：14 時 00 分 3.召開法人說明會之地點：群益金鼎證券忠孝分公司會議室 (台北市大安區忠孝東路四段87號15F) 4.法人說明會擇要訊息：本公司受邀參加群益金鼎證券所舉辦之法人說明會",
+      "time": "2026-11-02T13:51:40+08:00"
+    },
+    {
+      "title": "2903 遠百｜本公司功能性委員會委員異動",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.發生變動日期:115/11/02 2.功能性委員會名稱:審計委員會、薪酬委員會及企業永續委員會 3.舊任者姓名:魏永篤 4.舊任者簡歷:遠東百貨獨立董事 5.新任者姓名:不適用 6.新任者簡歷:不適用 7.異動情形（請輸入「辭職」、「解任」、「任期屆滿」、「逝世」或「新任」）:逝世 8.異動原因:逝世 9.原任期（",
+      "time": "2026-11-02T13:46:33+08:00"
+    },
+    {
+      "title": "2903 遠百｜公告本公司獨立董事逝世解任",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.發生變動日期:115/11/02 2.選任或變動人員別（請輸入法人董事、法人監察人、獨立董事、自然人董事 或自然人監察人）:獨立董事 3.舊任者職稱及姓名:遠東百貨獨立董事/魏永篤 4.舊任者簡歷:永勤興業股份有限公司董事長 5.新任者職稱及姓名:待補選 6.新任者簡歷:待補選 7.異動情形（請輸入「辭職」、「解任",
+      "time": "2026-11-02T13:45:39+08:00"
+    },
+    {
+      "title": "英特爾縮減低毛利工控晶片事業 牽動邊緣運算x86與Arm架構市場版圖 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdXdlTXR6eXBYb1pNMTV0anZtX19aaGNjUDlzaUNIS0toaHFLa3dCb0FDQkh6azdVYUEwcHlJQmg0YmVfSjVTaWJTUGVScEVhSkdZV0FNdVkxTkpNMGtRUFZ6bUVCSlZvUUFFZWs5bTl3NTlxSHdUTUNoeGZUdUxXbWF6OHY5Y2JjTDQ3UHZ3?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "英特爾縮減低毛利工控晶片事業 牽動邊緣運算x86與Arm架構市場版圖 DIGITIMES",
+      "time": "2026-11-02T12:26:29+08:00"
+    },
+    {
+      "title": "聽新聞 - 科技網 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLWhTU1doalBsMF9kSGY4ckJ1TWtKR1piaFBjWlNQT1dPa2RLTDBVR3FobkRTcnBxaF8zbjYzSV8zSjIwaWh3SEg1dzltcFJkblY0eFREU1BMbDc4NUVRYzJzRVhaZjJveFd5WjRRNkRmOERSQVpZXzdlalI5V3FZUkhxMjRiRWtCSUFOVjNIRURxSW9iaWNCRUF3N2pjSmZmRnNldVJ0TnhaZ1FmallTeHFiOENRZw?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "聽新聞 - 科技網 DIGITIMES",
+      "time": "2026-11-02T12:01:35+08:00"
+    },
+    {
+      "title": "6689 伊雲谷｜澄清媒體有關本公司之報導",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.事實發生日:115/11/02 2.公司名稱:eCloudvalley Japan株式會社 3.與公司關係(請輸入本公司或子公司):子公司 4.相互持股比例:100% 5.傳播媒體名稱:工商時報 B05 6.報導內容:攜手日本東京證券交易所Prime市場上市公司CREEK&RIVER（簡稱C&R）， 成立合資公司，",
+      "time": "2026-11-02T11:29:59+08:00"
+    },
+    {
+      "title": "南亞高階CCL擴產成形，電力與纖維同步推進- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSzFUTUFrVEg2bGtyYk1kTDdYamd1NnpjZHNSZFE0aEZRZ1JtaFUwbTQ4empkVzhRZlRtWS1fNkE3S0lPWFZob0JYSGFBbk4yb25yNXdXN0xRWllHMzdWeExsMXJhT3FhLXlJMnlUOFVvSHJTVmRZSjFWYUt6UWRMWmxWT3ZTUjRqQ3lQQXU1SVBMQQ?oc=5",
+      "source": "MoneyDJ",
+      "category": "媒體新聞",
+      "summary": "南亞高階CCL擴產成形，電力與纖維同步推進- 新聞 MoneyDJ",
+      "time": "2026-11-02T11:25:00+08:00"
+    },
+    {
+      "title": "1454 台富｜115年度第三季財務報告預計提報董事會決議日期",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.董事會召集通知日:115/11/02 2.董事會預計召開日期:115/11/10 3.預計提報董事會或經董事會決議之財務報告或 年度自結財務資訊年季:115年度第3季 4.其他應敘明事項:無。",
+      "time": "2026-11-02T10:03:16+08:00"
+    },
+    {
+      "title": "2317 鴻海｜說明媒體報導",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.事實發生日:115/11/02 2.公司名稱:鴻海精密工業股份有限公司 3.與公司關係(請輸入本公司或子公司):本公司 4.相互持股比例:不適用 5.傳播媒體名稱:經濟日報 6.報導內容: 明年產業趨勢仍是K型發展，與人工智慧（AI）資料中心有關的持續上升，其他則是 另外一條線，鴻海明年表現看起來還不錯，維持兩位數",
+      "time": "2026-11-02T10:03:02+08:00"
+    },
+    {
+      "title": "3018 隆銘綠能｜公告本公司更正副執行長異動",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.人員變動別（請輸入發言人、代理發言人、重要營運主管(如:執行長、營運長、 行銷長及策略長等)、財務主管、會計主管、公司治理主管、資訊安全長、研發主管、 內部稽核主管或訴訟及非訟代理人）:副執行長 2.發生變動日期:115/11/02 3.舊任者姓名、級職及簡歷:郭蕙蘭 本公司副執行長 4.新任者姓名、級職及簡歷:不",
+      "time": "2026-11-02T08:33:29+08:00"
+    },
+    {
+      "title": "6949 沛爾生醫*-創｜公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」， 公告期間：115年08月06日至115年11月05日。",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.事實發生日：民國115年07月13日 2.公司名稱：沛爾生技醫藥股份有限公司 3.與公司關係(請輸入本公司或子公司)：本公司 4.相互持股比例：不適用 5.發生緣由： (1)公司面額變更核准日期/事實發生日：民國115年07月13日 (2)公司面額變更核准文號：經授商字第經授商字第11530095510號號函 (3",
+      "time": "2026-11-02T07:00:03+08:00"
+    },
+    {
+      "title": "2072 世紀能源｜公告本公司名稱由「世紀離岸風電設備股份有限公司」更名 為「世紀能源設備股份有限公司」，公告期間：115年8月26日至 1",
+      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
+      "source": "證交所·重大訊息",
+      "category": "重大訊息",
+      "summary": "1.事實發生日：民國115年08月24日 2.公司名稱：世紀能源設備股份有限公司(原名：世紀離岸風電設備股份有限公司) 3.與公司關係(請輸入本公司或子公司)：本公司 4.相互持股比例：不適用 5.發生緣由： (1)公司名稱變更核准日期/事實發生日：民國115年08月24日 (2)公司名稱變更核准文號：經授商字第115",
+      "time": "2026-11-02T07:00:03+08:00"
     },
     {
       "title": "DIGITIMES Today：聯發科全面澄清ASIC業務傳言| 台灣愈來愈重視研發| 中國本土AI晶片替代H200 - DIGITIMES",
@@ -684,44 +1068,28 @@
       "time": "2026-11-02T05:00:00+08:00"
     },
     {
+      "title": "SK海力士SOCAMM2訂單逐季增加 基板廠急擴產卻恐缺原料 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdExFR1YxdFRsZDlLRmZoUEI1RS1UaDFfenI4YTBNVkphb3FWMzZEYzNpZVJqTUJLM1M3MkwxbUF0Z3kyUkJGZUxCUVU2aVd0UTNVa3NPcmpNZ3F3ZVRLMUZ1UDFnVWtjbVNkdGJFOHhDejdZazZVT3U1WldTZi1SaUFaREhHaVo0cVJuZW1R?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "SK海力士SOCAMM2訂單逐季增加 基板廠急擴產卻恐缺原料 DIGITIMES",
+      "time": "2026-11-02T02:49:13+08:00"
+    },
+    {
+      "title": "科技網 - 區域 - 圖表 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONG1oaGMyYzVFYjZiX1ZXSGdnOFBvQjN4ZUdXblMtX25ndGtyTlpFbVVkN1lSVUJOQXVfOHAwTjdSNzBkcWlKdGF1NG5OMmJUSWFCUDRBWEhndnJqWTV4TGRsT0RlQzVNZkQ1dzZSalVreDgzTUlqdkc4Umd4S3BmckZzbDhpTXd1VDIw?oc=5",
+      "source": "DigiTimes",
+      "category": "媒體新聞",
+      "summary": "科技網 - 區域 - 圖表 DIGITIMES",
+      "time": "2026-11-02T02:37:05+08:00"
+    },
+    {
       "title": "Elon Musk態度轉趨務實 傳與台積電「重新協商」Terafab合作大計 - DIGITIMES",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQY1dFMmFZc2d2Umo1cEw0ZDZnRWdJUTlfQVFfMFpnRGx2OUkzWWhQeGRsMFB5TUN1NmZUWE1RbUVhcDhuLWRFVWdWc2JKLUdUSTlpd1lzcEdUWnd2cFRMN3M2SXNiS0xMWFc0RFRad1RqV0hLLVFQYWpST2FBQmV5bDdNNVJBUTZDWVRST09n?oc=5",
       "source": "DigiTimes",
       "category": "媒體新聞",
       "summary": "Elon Musk態度轉趨務實 傳與台積電「重新協商」Terafab合作大計 DIGITIMES",
-      "time": "2026-11-02T03:00:00+08:00"
-    },
-    {
-      "title": "南韓陸軍推能源轉型 微電網、氫能強化自主供電 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTE40MjIyWF84UDRrbVc5OFNxdjVTbXdYN3hUTDlEVDhqbE5BQ3ViaGpQVzg1c21kdHhkQnNqb1NMS3BUQ0hWZ01ORmlNcnVHUGppZTVvbDR1RXRoQ1hzaVZhS3dkM3BMc1d2WnY5M3E0QXdRemUtTWJJczlGWE5NZTNpcHdsb0JyVEpscDVR?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "南韓陸軍推能源轉型 微電網、氫能強化自主供電 DIGITIMES",
-      "time": "2026-11-02T02:40:00+08:00"
-    },
-    {
-      "title": "艾爾斯日本新廠完工倒數 2028年台灣產能拚月產20萬片 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PQ1M5Q1JaQ2ZzTU5hcVAxZ2JpR3EwcDZoNk1RWnJ3OEZzaXhCY3AzbmJyZ2pnNlJjSzBBcFVRWlBJc2pvbGs1dTZfTGlmNzdRdmZJZXdmWk9VeEwtT1hiRHNjMTFIR1kzRU9J?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "艾爾斯日本新廠完工倒數 2028年台灣產能拚月產20萬片 DIGITIMES",
-      "time": "2026-11-02T02:25:00+08:00"
-    },
-    {
-      "title": "泰國研擬資料中心監管架構 新申請案最快2027年初開放 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNVJfWGtpbHBtSFNBeXM0Zm1wcmFUTnU0MTFzUktZZFFZSkRrUnVXc1FXSTFHS25LdVpkVjhsdmRHRFhPcmdVSVdMeHJWQlVfeUJleW56azJKcVpXbmdsb0VwZnJrZk9fMEMyNkt0dWlvY1hIN2E1OC1iS2Niakk2Qi1iMnNmbnd4cEdsZWpn?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "泰國研擬資料中心監管架構 新申請案最快2027年初開放 DIGITIMES",
-      "time": "2026-11-02T02:19:00+08:00"
-    },
-    {
-      "title": "科技1分鐘：日本RS Technologies - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORzY1X2xNenZPeEMtNFlJcGFSOVk1SVJGWFp4NkdydVdINUpMTE1vUWRKRW1MNmZYcl91Mng5cmdkSVBBMzEtd1ZuQmxsNVhWYjhXbXZpMGd0VXBZUFpXRE5vcGNGZFF3NUUzZVZ4TEFKRDViRDltQUZZdXJtNFJUOE5vSXZhRU0zS0MxMUZn?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "科技1分鐘：日本RS Technologies DIGITIMES",
-      "time": "2026-11-02T01:32:33+08:00"
+      "time": "2026-11-02T01:05:42+08:00"
     },
     {
       "title": "台灣迎AI資料中心擴張潮 高壓專線設置和電力供應成挑戰 - DIGITIMES",
@@ -732,28 +1100,12 @@
       "time": "2026-11-02T00:45:33+08:00"
     },
     {
-      "title": "AMOLED來勢洶洶 IT用LCD面板大受衝擊 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1URDd0OTJ5QlY1ZkltdXdkcEJFNHZET2VQeTQ3UjFxdGVpVGlZTEI5ZXNQU0NCVklaSHQyRUJfaFFleTJZRHBteEhTTWNaNG5RZ2dybWg0ejMzb1F1dnhzcVROaWp2VENVU2tZ?oc=5",
+      "title": "科技網 - 產業 - 圖表 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcHFrUzNkdXhKQlBYM010SE5Qak1VaVFPcnZyMFN3ZlU1X3huVXFUbUQtdjJzbm1JNmhNS1NqcWswWkRMQmVmOHVLaUVKdXYtM2wwdUpINFdjZE5yVkNGRzVuaGYyVk9lWjVBMEhjUWxMVzFycTI3OTRzM0xwVWNfZXMyY0V0cW5LSWRj?oc=5",
       "source": "DigiTimes",
       "category": "媒體新聞",
-      "summary": "AMOLED來勢洶洶 IT用LCD面板大受衝擊 DIGITIMES",
-      "time": "2026-11-02T00:40:53+08:00"
-    },
-    {
-      "title": "〈熱門股〉穩懋Q3財報佳績+AI光通訊大廠收購題材 周漲19%站上所有均線",
-      "link": "https://news.cnyes.com/news/id/6643433",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "穩懋第3季稅後純益19.3億元、年增80%，EPS 4.55元，前3季EPS 8.12元。 法說稱AI資料中心高速傳輸需求帶動，PD產品今年量產、明年將明顯放量。 外資將目標價調高近700元、評等升至優於大盤；穩懋周漲18.93%。",
-      "time": "2026-11-02T00:15:45+08:00"
-    },
-    {
-      "title": "（HHTD 26）Token暴漲60倍推動AIDC電力轉型 施耐德與鴻海布局模組化AI工廠 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVmc2T3RnN1VPRV9JOEtfZlNuaGNpZWZVR1p5bE1JaC1aRGFkc2YwUTl0WndNaU1FNmwyclB4dnk1bXI2dDNDM0dTQlBBVGFUNjIxWTFqSVZzbzVtdk0zV0J4aXNvR1FtZWNWQ1FLNzNXSEFSVjJVd1J6UGhZRVUtYzVqQkRrME5YTkpLM1J5NmMtS3dUM0RONDFiVGhyem5EN245ZS1tQnJNUE12WE5VdWRWRjFCNXdZV0dLU19KVDhxQQ?oc=5",
-      "source": "DigiTimes",
-      "category": "媒體新聞",
-      "summary": "（HHTD 26）Token暴漲60倍推動AIDC電力轉型 施耐德與鴻海布局模組化AI工廠 DIGITIMES",
-      "time": "2026-11-02T00:07:30+08:00"
+      "summary": "科技網 - 產業 - 圖表 DIGITIMES",
+      "time": "2026-11-02T00:06:43+08:00"
     },
     {
       "title": "議題精選：顯示業3Q26法說開跑 - DIGITIMES",
@@ -764,108 +1116,36 @@
       "time": "2026-11-02T00:06:42+08:00"
     },
     {
-      "title": "2402 毅嘉｜公告本公司自行結算115年10月合併營收約新台幣11.34億元。",
-      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
-      "source": "證交所·重大訊息",
-      "category": "重大訊息",
-      "summary": "1.事實發生日:115/11/01 2.公司名稱:毅嘉科技股份有限公司 3.與公司關係(請輸入本公司或子公司):本公司 4.相互持股比例:不適用 5.發生緣由:毅嘉科技自行結算115年10月合併營收約新台幣11.34億元，較去年同期 增加約21%。 主要產品營收分別為「電子模組產品」約新台幣8.11億元；「整合模組產品",
-      "time": "2026-11-01T16:57:08+08:00"
+      "title": "上市公司115年第3季財務報告公告申報期限及注意事項",
+      "link": "https://www.twse.com.tw/zh/about/news/news/content.html?8a8216d6a19afd9c01a19ba971f80329",
+      "source": "證交所·新聞",
+      "category": "官方公告",
+      "summary": "",
+      "time": "2026-11-02T00:00:00+08:00"
     },
     {
-      "title": "盼追加預算11月順利過關 卓揆：讓普發1萬最快春節前發錢 行政準備絕不拖延",
-      "link": "https://news.cnyes.com/news/id/6643192",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "卓榮泰稱台灣第3季GDP概估14.36%、全年估11.06%，世界第2；台灣整體競爭力居全球第4。 明年度中央政府總預算歲出3兆9266億元，含普發1萬預算若1月20日前公布最快春節前發放。 政院盼115年度追加預算案6076億元11月通過即執行，並推AI新十大建設、13項戰略產業與中小微企業轉型。",
-      "time": "2026-11-01T16:50:02+08:00"
+      "title": "從資金匯聚到產業發展 臺灣週高雄亞資中心論壇聚焦政策成果與國際布局",
+      "link": "https://www.twse.com.tw/zh/about/news/news/content.html?8a8216d6a0fa351b01a19a41e87f02f4",
+      "source": "證交所·新聞",
+      "category": "官方公告",
+      "summary": "",
+      "time": "2026-11-02T00:00:00+08:00"
     },
     {
-      "title": "國1五堵至汐止段不再「打結」！卓揆：基北往返尖峰省15分鐘 車速升至80公里",
-      "link": "https://news.cnyes.com/news/id/6643168",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "國道1號五堵至汐止交流道拓寬工程推進，主線雙向2車道增至3車道並新增匝道。 完工後尖峰車速可由每小時23至32公里升至80至82公里，基隆往返台北可縮短10至15分鐘。 卓榮泰稱中央與地方協力解決台北、新北、基隆交通瓶頸，並盼第1次招標未果後儘速動工。",
-      "time": "2026-11-01T16:43:54+08:00"
+      "title": "上週外資在集中市場賣超1,733.65億元，賣超聯電10.95萬張最多，另買超華邦電5.90萬張最多",
+      "link": "https://www.twse.com.tw/zh/about/news/news/content.html?8a8216d6a0fa351b01a19a472f2602f8",
+      "source": "證交所·新聞",
+      "category": "官方公告",
+      "summary": "",
+      "time": "2026-11-02T00:00:00+08:00"
     },
     {
-      "title": "〈台股風向球〉融資恐殺出引爆補跌壓力 台股走勢可能有2種情境",
-      "link": "https://news.cnyes.com/news/id/6643193",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "費半上周五崩跌逾7%、台積電ADR重挫近6%，台股11月開局恐面臨補跌壓力。 永豐投顧稱45000點半年線為多空分水嶺，指數若跌破年線，融資恐需降至約4200億元才止穩。",
-      "time": "2026-11-01T16:43:18+08:00"
-    },
-    {
-      "title": "AI不只要算力更拚交付速度！FII、FIT深化合作因應客戶「昨天到貨」急單需求",
-      "link": "https://news.cnyes.com/news/id/6643282",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "FII系統整合與FIT高速互聯與零組件技術整合，因應AI基礎設施需求快速擴大。 鄭弘孟、盧松青在2026鴻海科技日指出，客戶已從問規格轉向要求更快交付，甚至當天下午就要貨。 FIT布局Midplane連接器、CHIPLINK 448G、800G/1.6T、CPO與液冷技術，強化AI資料中心供電散熱。",
-      "time": "2026-11-01T14:30:50+08:00"
-    },
-    {
-      "title": "3432 台端｜依臺灣證券交易所股份有限公司臺證上一字第1121801204 號函辦理",
-      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
-      "source": "證交所·重大訊息",
-      "category": "重大訊息",
-      "summary": "1.事實發生日:115/11/01 2.公司名稱:台端興業股份有限公司 3.與公司關係(請輸入本公司或子公司):本公司 4.相互持股比例:不適用 5.發生緣由:依臺灣證券交易所股份有限公司臺證上一字第1121801204號函辦理，每周 定期發布重大訊息公告持有之每檔基金餘額、申購與贖回交易情形及應收 基金贖回款之收回情",
-      "time": "2026-11-01T14:17:37+08:00"
-    },
-    {
-      "title": "美股亂流引發台股賣壓 法人仍看好中長期基本面支撐、留意個股分化趨勢",
-      "link": "https://news.cnyes.com/news/id/6643096",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "受美股科技股震盪與財報雜音干擾，台股近期賣壓增溫，指數劇烈波動並反覆測試底部。法人指出，雖然短線市場情緒趨於保守，致使部分亮眼財報面臨獲利了結賣壓；但從中長期來看，美國雲端巨頭AI資本支出未減，台灣半導體與科技供應鏈的關鍵地位依舊穩固。在評價與高波動並存的環境下，拉回反倒提供了中長線分批布局與多元配",
-      "time": "2026-11-01T09:40:03+08:00"
-    },
-    {
-      "title": "金居啟動大馬建廠計畫 高階銅箔新廠落腳居林、取得3.12萬坪土地",
-      "link": "https://news.cnyes.com/news/id/6643020",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "金居取得馬國吉打州居林高科技園區Phase 4A土地使用權，規劃設新廠。 新廠占地3.12萬坪，主產HVLP4高頻高速銅箔，年產能3萬噸。 馬國新廠投資80億至100億元，擬發CB籌資約70億元。",
-      "time": "2026-11-01T09:10:02+08:00"
-    },
-    {
-      "title": "AI基建拉貨動能強勁 華碩技嘉同步大手筆籌資衝刺出貨",
-      "link": "https://news.cnyes.com/news/id/6642705",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "伺服器龐大需求持續引爆，電腦品牌大廠華碩(2357-TW)與技嘉(2376-TW)近期接連啟動大規模籌資計畫，合計籌集資金規模突破千億元。雙雄積極布局資金調度與資本支出，主要用於擴增伺服器廠房設備、原物料採購及海外營運週轉，全面搶攻明年度新世代算力平台的龐大商機。 華碩受惠伺服器與個人電腦拉貨暢旺",
-      "time": "2026-11-01T08:10:02+08:00"
-    },
-    {
-      "title": "2072 世紀能源｜公告本公司名稱由「世紀離岸風電設備股份有限公司」更名 為「世紀能源設備股份有限公司」，公告期間：115年8月26日至 1",
-      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
-      "source": "證交所·重大訊息",
-      "category": "重大訊息",
-      "summary": "1.事實發生日：民國115年08月24日 2.公司名稱：世紀能源設備股份有限公司(原名：世紀離岸風電設備股份有限公司) 3.與公司關係(請輸入本公司或子公司)：本公司 4.相互持股比例：不適用 5.發生緣由： (1)公司名稱變更核准日期/事實發生日：民國115年08月24日 (2)公司名稱變更核准文號：經授商字第115",
-      "time": "2026-11-01T07:00:03+08:00"
-    },
-    {
-      "title": "6949 沛爾生醫*-創｜公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」， 公告期間：115年08月06日至115年11月05日。",
-      "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
-      "source": "證交所·重大訊息",
-      "category": "重大訊息",
-      "summary": "1.事實發生日：民國115年07月13日 2.公司名稱：沛爾生技醫藥股份有限公司 3.與公司關係(請輸入本公司或子公司)：本公司 4.相互持股比例：不適用 5.發生緣由： (1)公司面額變更核准日期/事實發生日：民國115年07月13日 (2)公司面額變更核准文號：經授商字第經授商字第11530095510號號函 (3",
-      "time": "2026-11-01T07:00:03+08:00"
-    },
-    {
-      "title": "jpp-KY深耕泰國舉辦自動化比賽 獲皇室肯定御賜獎盃",
-      "link": "https://news.cnyes.com/news/id/6642887",
-      "source": "鉅亨網·台股",
-      "category": "媒體新聞",
-      "summary": "jpp-KY經寶精密主辦2026 JINPAO-PRAKSA自動化競賽決賽，祭出逾70萬泰銖獎金並獲泰國皇室詩琳通公主御賜獎盃。 泰國26府43隊參賽，16隊晉級，角逐工業自動化與機器人實作。 競賽聚焦Robot/AGV、影像辨識、自動導航與金屬板折彎，貼近工業需求。",
-      "time": "2026-11-01T00:05:45+08:00"
-    },
-    {
-      "title": "8358 金居｜代子公司COTECH DEVELOPMENT (PENANG) SDN. BHD.公告取得土地使用權資產",
+      "title": "3666 光耀｜公告本公司永續發展委員會委員異動",
       "link": "https://mopsov.twse.com.tw/mops/web/t05st01",
       "source": "櫃買·重大訊息",
       "category": "重大訊息",
-      "summary": "1.標的物之名稱及性質（如坐落台中市北區ＸＸ段ＸＸ小段土地）: Kulim Hi-Tech Park Phase 4A之土地使用權資產 2.事實發生日:115/10/31~115/10/31 3.董事會通過日期: 民國115年9月14日 4.其他核決日期: 不適用 5.交易單位數量（如ＸＸ平方公尺，折合ＸＸ坪）、每單位",
-      "time": "2026-10-31T18:16:50+08:00"
+      "summary": "1.發生變動日期:115/11/01 2.功能性委員會名稱:永續發展委員會 3.舊任者姓名:簡韻純 4.舊任者簡歷:森進營造(股)公司董事長 5.新任者姓名:待委任 6.新任者簡歷:待委任 7.異動情形（請輸入「辭職」、「解任」、「任期屆滿」、「逝世」或「新任」）:辭職 8.異動原因:辭任 9.原任期（例xx/xx/x",
+      "time": "2026-11-01T15:40:51+08:00"
     }
   ]
 }
